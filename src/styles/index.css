@@ -167,3 +167,8 @@ a {
 .contact-form {
   padding: 30px 20px 30px 30px !important;
 }
+
+.custom-border{
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
