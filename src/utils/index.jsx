@@ -1,1 +1,1 @@
-// export { default as Progress10 } from "../assets/images/progress-ten.svg";
+export { default as LogoHeader} from "../../public/logo-header.svg";
