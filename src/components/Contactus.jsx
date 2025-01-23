@@ -38,7 +38,7 @@ const Contactus = () => {
                                                 id='help'
                                                 type="text"
                                                 
-                                                className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white  text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
+                                                className='form-input placeholder:text-[#D2D2D2] rounded-[16px] border border-solid border-[#B7B7B7] bg-white  text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
                                                 placeholder="Enter Text"
                                             />
                                         
@@ -51,7 +51,7 @@ const Contactus = () => {
                                                 id='full-name'
                                                 type="text"
                                          
-                                                className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
+                                                className='form-input placeholder:text-[#D2D2D2] rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
                                                 placeholder="Alexa David"
                                                 maxLength={50}
                                             />
@@ -64,7 +64,7 @@ const Contactus = () => {
                                             <input
                                                 id='email'
                                                 type="text"
-                                                className='form-input rounded-[16px] border border-solid bg-white  text-black border-[#B7B7B7] p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
+                                                className='form-input placeholder:text-[#D2D2D2] rounded-[16px] border border-solid bg-white  text-black border-[#B7B7B7] p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
                                                 placeholder="Alexadavid@email.com"
                                             />
                                     
@@ -77,7 +77,7 @@ const Contactus = () => {
                                                 id='full-name'
                                                 type="text"
                                          
-                                                className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
+                                                className='form-input placeholder:text-[#D2D2D2] rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
                                                 placeholder="United States"
                                                 maxLength={50}
                                             />
@@ -91,7 +91,7 @@ const Contactus = () => {
                                                 id='full-name'
                                                 type="phone"
                                          
-                                                className='bg-[#FFFFFF59]  form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
+                                                className='bg-[#FFFFFF59] placeholder:text-[#D2D2D2]  form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
                                                 placeholder="+00 111 2222222"
                                                 maxLength={50}
                                             />
@@ -104,7 +104,7 @@ const Contactus = () => {
                                             <textarea
                                                 id="Message"
                                               
-                                                className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white  text-black p-[14px] min-h-[140px] text-[16px] md:text-[18px] not-italic font-normal '
+                                                className='form-input placeholder:text-[#D2D2D2] rounded-[16px] border border-solid border-[#B7B7B7] bg-white  text-black p-[14px] min-h-[140px] text-[16px] md:text-[18px] not-italic font-normal '
                                                 placeholder='Message'></textarea>
                                         </Form.Group>
                                     </Col>
