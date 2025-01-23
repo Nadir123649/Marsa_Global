@@ -1,0 +1,1 @@
+// export { default as Progress10 } from "../assets/images/progress-ten.svg";
