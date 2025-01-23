@@ -172,3 +172,27 @@ a {
   border-top: 1px solid #D9D9D9;
   border-bottom: 1px solid #D9D9D9;
 }
+
+.banner-image {
+  background-image: url('../../public/images/banner-bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.user-box {
+  background-image: url('../../public/images/bg-user-box.svg');
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 256px;
+  width: 100%;
+}
+
+.feature-card {
+  border-radius: 18px;
+  border: 1px solid #F3F3F3;
+  background: rgba(217, 217, 217, 0.10);
+  box-shadow: 26.233px -26.233px 26.233px 0px rgba(165, 165, 165, 0.10) inset, -26.233px 26.233px 26.233px 0px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(26.233333587646484px);
+}
