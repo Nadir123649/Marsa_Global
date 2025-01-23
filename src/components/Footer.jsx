@@ -17,44 +17,44 @@ const Footer = () => {
                     <div className='col-span-4'> <Image src={FooterLogo} /></div>
                     <div className='col-span-8'>
                         <ul className="flex items-center justify-center gap-4 list-none pb-2 ">
-                            <li className="text-center  border-white">
+                            <li className="text-center  border-white border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Home
                                 </Link>
                             </li>
-                            <li className="text-center  border-white">
+                            <li className="text-center  border-white border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     B2C Platform
                                 </Link>
                             </li>
-                            <li className="text-centerborder-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     B2B Platform
                                 </Link>
                             </li>
-                            <li className="text-center  border-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Resources
                                 </Link>
                             </li>
-                            <li className="text-center border-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Download Application
                                 </Link>
                             </li>
                         </ul>
-                        <div className='flex'>
+                        <div className='flex justify-end  py-8 gap-4 items-end'>
                             <div className='flex flex-col'>
-                                <label htmlFor="email">Subscribe to our weekly news letter.</label>
+                                <label htmlFor="email" className='pb-2'>Subscribe to our weekly news letter.</label>
                                 <input
-                                    className='bg-[#5454543B] text-[#FFFFFF] border-none  px-[24px] py-[16px] rounded-[16px] placeholder-[#FFFFFF]'
+                                    className='bg-[#5454543B] text-[#FFFFFF] border-none h-[60px] px-[24px] py-[16px] rounded-[16px] placeholder-[#FFFFFF]'
                                     type="email"
                                     placeholder='Enter Email' />
                             </div>
-                            <button className='text-[#8BC34A] border-1 border-[#8BC34A] px-[24px] py-[16px] rounded-[16px]'>Subscribe</button></div>
-                    </div>
+                            <button className='text-[#8BC34A] border-1 border-[#8BC34A] h-[60px] px-[24px] py-[16px] rounded-[16px]'>Subscribe</button></div>
+                        </div>
                 </div>
-                <div className=' footer-bottom flex justify-between items-center py-4'>
+                <div className=' footer-bottom flex justify-between items-center pt-3'>
                     <div className='flex items-center justify-center gap-4'>
                         <FaFacebookF />
                         <FaTwitter />
