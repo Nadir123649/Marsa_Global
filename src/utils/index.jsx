@@ -1,1 +1,1 @@
-// export { default as Progress10 } from "../assets/images/progress-ten.svg";
+export { default as FooterLogo} from "../../public/images/footer-logo.png";
