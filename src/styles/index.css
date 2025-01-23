@@ -196,3 +196,9 @@ a {
   box-shadow: 26.233px -26.233px 26.233px 0px rgba(165, 165, 165, 0.10) inset, -26.233px 26.233px 26.233px 0px rgba(255, 255, 255, 0.10) inset;
   backdrop-filter: blur(26.233333587646484px);
 }
+
+.info-list{
+  list-style: disc !important;
+ margin-left: 20px !important;
+ padding-top: 20px !important;
+}
