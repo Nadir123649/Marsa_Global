@@ -149,3 +149,10 @@
   .footer-top ul {
     border-bottom: 1px solid #464646;
   }
+  .form-input:focus{
+    outline: none;
+  }
+
+  .contact-form{
+    padding: 30px 20px !important;
+  }

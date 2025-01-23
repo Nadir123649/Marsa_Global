@@ -17,27 +17,27 @@ const Footer = () => {
                     <div className='col-span-4'> <Image src={FooterLogo} /></div>
                     <div className='col-span-8'>
                         <ul className="flex items-center justify-center gap-4 list-none pb-2 ">
-                            <li className="text-center  border-white">
+                            <li className="text-center  border-white border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Home
                                 </Link>
                             </li>
-                            <li className="text-center  border-white">
+                            <li className="text-center  border-white border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     B2C Platform
                                 </Link>
                             </li>
-                            <li className="text-centerborder-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     B2B Platform
                                 </Link>
                             </li>
-                            <li className="text-center  border-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Resources
                                 </Link>
                             </li>
-                            <li className="text-center border-white">
+                            <li className="text-center border-l border-[#ffffff]">
                                 <Link href="/" className="text-[#FFFFFF] text-[18px]">
                                     Download Application
                                 </Link>
