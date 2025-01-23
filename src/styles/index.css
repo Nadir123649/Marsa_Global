@@ -1,151 +1,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body,
-  html {
-    width: 100%;
-    height: auto;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: "Montserrat", serif !important;
-    background-color: #FFF !important;
-  }
-  
-  /* Css reset  */
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    font-family: "Montserrat", serif !important;
-    font-style: normal;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
-  }
+body,
+html {
+  width: 100%;
+  height: auto;
+}
 
-  body {
-    line-height: 1;
-  }
-  ol,
-  ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  a {
-    display: inline-block;
-    text-decoration: none !important;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .footer-bottom{
+body {
+  font-family: "Montserrat", serif !important;
+  background-color: #FFF !important;
+}
 
-    border-top: 1px solid #716F6F;
-  }
+/* Css reset  */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Montserrat", serif !important;
+  font-style: normal;
+}
 
-  .footer-top ul {
-    border-bottom: 1px solid #464646;
-  }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.banner-image {
+  background-image: url('../../public/images/banner-bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-bottom {
+  border-top: 1px solid #716F6F;
+}
+
+.footer-top ul {
+  border-bottom: 1px solid #464646;
+}
+
+.user-box {
+  background-image: url('../../public/images/bg-user-box.svg');
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 256px;
+  width: 100%;
+}
+
+.feature-card {
+  border-radius: 18px;
+  border: 1px solid #F3F3F3;
+  background: rgba(217, 217, 217, 0.10);
+  box-shadow: 26.233px -26.233px 26.233px 0px rgba(165, 165, 165, 0.10) inset, -26.233px 26.233px 26.233px 0px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(26.233333587646484px);
+}
