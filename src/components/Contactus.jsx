@@ -19,7 +19,7 @@ const Contactus = () => {
                                 </p>
                                 <div className='contact-details flex flex-col px-[10px] md:px-[0px] gap-4 mt-[30px] md:mt-[90px]'>
                                 <div className='contact-details-item flex gap-3 items-center text-[#2776EA]'>
-                                   <Image src={ContactBanner}/>
+                                   <Image src={ContactBanner} width={520}/>
                                 </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ const Contactus = () => {
                                                 type="text"
                                                 
                                                 className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white  text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
-                                                placeholder="How can we help?"
+                                                placeholder="Enter Text"
                                             />
                                         
                                         </Form.Group>
@@ -76,7 +76,7 @@ const Contactus = () => {
                                                 type="text"
                                          
                                                 className='form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
-                                                placeholder="Alexa David"
+                                                placeholder="United States"
                                                 maxLength={50}
                                             />
                                       
@@ -90,7 +90,7 @@ const Contactus = () => {
                                                 type="phone"
                                          
                                                 className='bg-[#FFFFFF59]  form-input rounded-[16px] border border-solid border-[#B7B7B7] bg-white text-black p-[14px] text-[16px] md:text-[18px] not-italic font-normal'
-                                                placeholder="Alexa David"
+                                                placeholder="+00 111 2222222"
                                                 maxLength={50}
                                             />
                                       
