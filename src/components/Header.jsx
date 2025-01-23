@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap'
 const Header = () => {
     return (
         <header className='py-[14px]'>
-            <Container className='flex justify-between items-center'>
+            <Container className='flex justify-between items-center p-0'>
                 <Link href="/">
                     <Image
                         src={LogoHeader}
