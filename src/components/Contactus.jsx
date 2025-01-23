@@ -1,5 +1,5 @@
 
-import { ContactBanner } from '@/utils';
+import { ContactBanner, GradientOne, GradientTwo } from '@/utils';
 import Image from 'next/image';
 import { Col, Container, Form, Row } from 'react-bootstrap';
 
@@ -13,13 +13,15 @@ const Contactus = () => {
                         <Col lg={6} md={12} xs={12}>
                             <div className="contact-form-content mt-[20px] md:mt-[30px]">
                                 <h1 className='text-[40px] text-[#2D2D2D] font-bold not-italic mb-2 md:mb-4  '>Let’s Reach New <span className='text-[#8BC34A]'>Heights</span>!</h1>
-                                <p className='text-[24px] text-[#4C4C4C] not-italic  font-normal max-w-full md:max-w-[480px] '>
+                                <p className='text-[24px] text-[#4C4C4C] not-italic  font-normal max-w-full md:max-w-[480px] leading-[30px] '>
                                     Book a call today and see
                                     where we can take you.
                                 </p>
                                 <div className='contact-details flex flex-col px-[10px] md:px-[0px] gap-4 mt-[30px] md:mt-[90px]'>
-                                <div className='contact-details-item flex gap-3 items-center text-[#2776EA]'>
+                                <div className='contact-details-item relative flex gap-3 items-center text-[#2776EA]'>
+                                <Image className='gradient-img-two' src={GradientTwo} width={520}/>
                                    <Image src={ContactBanner} width={520}/>
+
                                 </div>
                                 </div>
                             </div>
@@ -106,8 +108,8 @@ const Contactus = () => {
                                                 placeholder='Message'></textarea>
                                         </Form.Group>
                                     </Col>
-                                    <Col lg={12} md={12} xs={12}>
-                                        <Form.Group controlId="subscribe" className='flex  gap-3 items-center'>
+                                    <Col lg={12} md={12} xs={12} className=''>
+                                        <Form.Group controlId="subscribe" className='gradient-parent flex  gap-3 items-center'>
                                             <Form.Check
                                                 id='subscribe'
                                                 type="checkbox"
@@ -121,7 +123,9 @@ const Contactus = () => {
                                             >
                                                 Check here to subscribe for updates.
                                             </label>
+                                            <Image className='gradient-img' src={GradientOne} width={520}/>
                                         </Form.Group>
+                                     
                                     </Col>
                                     <Col lg={12} md={12} xs={12} className='flex justify-end'>
                                         <button aria-label="Load More"  className='btn-submit text-white text-[16px] md:text-[18px] font-normal not-italic bg-[#8BC34A] rounded-[16px] py-[13px] md:py-[16px] px-[10px] md:px-[24px] max-w-[150px] md:max-w-[180px] w-full border border-solid border-[#B7B7B7]' type='submit'>

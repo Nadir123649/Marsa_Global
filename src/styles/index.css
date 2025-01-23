@@ -1,158 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body,
-  html {
-    width: 100%;
-    height: auto;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: "Montserrat", serif !important;
-    background-color: #FFF !important;
-  }
-  
-  /* Css reset  */
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    font-family: "Montserrat", serif !important;
-    font-style: normal;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", serif !important;
+  background-color: #fff !important;
+}
 
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
-  }
+/* Css reset  */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Montserrat", serif !important;
+  font-style: normal;
+}
 
-  body {
-    line-height: 1;
-  }
-  ol,
-  ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  a {
-    display: inline-block;
-    text-decoration: none !important;
-  }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 
-  .footer-bottom{
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
 
-    border-top: 1px solid #716F6F;
-  }
+.footer-bottom {
+  border-top: 1px solid #716f6f;
+}
 
-  .footer-top ul {
-    border-bottom: 1px solid #464646;
-  }
-  .form-input:focus{
-    outline: none;
-  }
-
-  .contact-form{
-    padding: 30px 20px !important;
-  }
+.footer-top ul {
+  border-bottom: 1px solid #464646;
+}
+.form-input:focus {
+  outline: none;
+}
+.gradient-parent {
+  position: relative !important;
+}
+.gradient-img {
+  position: absolute !important;
+  left: -200px !important;
+  opacity: 0.5;
+}
+.gradient-img-two{
+  position: absolute !important;
+  top: -240px !important;
+  opacity: 0.4;
+}
+.contact-form {
+  padding: 30px 20px 30px 30px !important;
+}
