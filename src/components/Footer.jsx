@@ -11,7 +11,7 @@ import { FooterLogo } from '@/utils';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='pb-[50px]'>
             <Container className='p-4 text-[#FFFFFF] bg-[linear-gradient(188.43deg,_#373737_7.17%,_#313131_94.35%)]  rounded-[29px]'>
                 <div className='footer-top grid grid-cols-12'>
                     <div className='col-span-4'> <Image src={FooterLogo} /></div>
