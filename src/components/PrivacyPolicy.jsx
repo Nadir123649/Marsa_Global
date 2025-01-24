@@ -1,7 +1,3 @@
-import { LogoHeader } from '@/utils'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
 import { Container } from 'react-bootstrap'
 
 const PrivacyPolicy = () => {
@@ -147,7 +143,7 @@ const PrivacyPolicy = () => {
                   <div className='custom-border py-[30px]  '>
                     <h2 className='font-bold text-[24px] text-[#8BC34A] pb-[10px]'>10- Contact Us</h2>
                     <p className='text-[#4E4E4E] text-[24px] font-medium pt-[20px]'>If you have any questions or concerns, contact us at:</p>
-                    <ul className='flex flex-col gap-[14px] list-disc '>
+                    <ul className='contact-list flex flex-col gap-[14px] list-disc '>
                         <li className=''>
                             <p className='text-[#4E4E4E] text-[24px]  leading-[35px]'>url</p>
                         </li>
