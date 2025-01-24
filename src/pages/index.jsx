@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Contactus from '@/components/Contactus';
 import Banner from '@/components/Banner';
 import CoreFeatures from '@/components/CoreFeatures';
+import CigmaSection from '@/components/CigmaSection';
 
 const Home = () => {
 
@@ -19,8 +20,9 @@ const Home = () => {
             <Banner />
             <main>
                 <CoreFeatures />
+                <CigmaSection />
             </main>
-            <Contactus/>
+            <Contactus />
             <Footer />
         </>
     );
