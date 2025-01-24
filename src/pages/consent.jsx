@@ -1,15 +1,12 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import Layout from '@/components/layout';
 import PatientConsent from '@/components/PatientConsent';
 
 const Consent = () => {
 
     return (
-        <section>
-            <Header />
-           <PatientConsent/>
-            <Footer />
-        </section>
+        <Layout>
+            <PatientConsent />
+        </Layout>
     );
 }
 export default Consent;
