@@ -9,5 +9,6 @@ export { default as FeatureTwo} from "../../public/images/feature-two.svg";
 export { default as FeatureThree} from "../../public/images/feature-three.svg";
 export { default as ImageOne} from "../../public/images/src-image.svg";
 export { default as ImageTwo} from "../../public/images/user-two.svg";
-
+export { default as BgLeft} from "../../public/images/bg-left.png";
+export { default as BgRight} from "../../public/images/bg-right.png";
 
