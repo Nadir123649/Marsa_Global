@@ -1,15 +1,12 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import Layout from '@/components/layout';
 import PrivacyPolicy from '@/components/PrivacyPolicy';
 
 const Privacy = () => {
 
     return (
-        <section>
-            <Header />
+        <Layout>
             <PrivacyPolicy />
-            <Footer />
-        </section>
+        </Layout>
     );
 }
 export default Privacy;
