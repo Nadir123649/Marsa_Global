@@ -38,7 +38,7 @@ const CigmaSection = () => {
                             <p className='text-[#4F4F4F] text-[22px] not-italic font-[300] leading-[38px] pt-[10px]'>
                                 Our features are built around fostering better mental health for all.
                             </p>
-                            <div className='mt-[112px]'>
+                            <div className='mt-[86px]'>
                                 <ul className='flex flex-col gap-[60px] relative'>
                                     <Image src={ImageLineOne} alt="line-one" className='absolute top-[62px] left-[-26px]' />
                                     <Image src={ImageLineTwo} alt="line-two" className='absolute bottom-[62px] left-[80px]' />
