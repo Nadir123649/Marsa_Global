@@ -252,7 +252,7 @@ a {
 }
 .description-part{
   padding-left: 100px !important;
-  border: 1px solid #F3F3F3 !important;
+ 
 }
 .cigma-container {
   padding: 48px 27px 64px 48px;
@@ -269,22 +269,18 @@ a {
 }
 
 .mood-img{
+  z-index: 1;
   position: absolute;
   left: -60px;
+  top: -100px;
 }
 .mood-description{
-  width: 67%;
+  border: 1px solid #F3F3F3 !important;
+  width: 90%;
+  margin-left: auto;
+  padding-left: 300px;
 }
-/* .apple-img{
-  position: absolute;
-  bottom: -120px;
-  left: 10px;
-}
-.play-img{
-  position: absolute;
-  bottom: -120px;
-  left: 140px;
-} */
+
 @media screen and (max-width: 1400px) {
   .mood-img{
     position: absolute;
