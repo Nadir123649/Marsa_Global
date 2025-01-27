@@ -7,6 +7,7 @@ import Banner from '@/components/Banner';
 import CoreFeatures from '@/components/CoreFeatures';
 import CigmaSection from '@/components/CigmaSection';
 import MoodSection from '@/components/MoodSection';
+import CommunitySlider from '@/components/CommunitySlider';
 
 const Home = () => {
 
@@ -23,6 +24,7 @@ const Home = () => {
                 <CoreFeatures />
                 <CigmaSection />
                 <MoodSection />
+                <CommunitySlider />
             </main>
             <Contactus />
             <Footer />

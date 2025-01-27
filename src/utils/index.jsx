@@ -20,6 +20,12 @@ export { default as ImageLineOne} from "../../public/images/left-line.svg";
 export { default as ImageLineTwo} from "../../public/images/line-two.svg";
 export { default as Appstore} from "../../public/images/app-store-btn.png";
 export { default as Applestore} from "../../public/images/play-store-btn.png";
+export { default as SliderOne} from "../../public/images/slider-one.png";
+export { default as SliderTwo} from "../../public/images/slider-two.png";
+export { default as SliderThree} from "../../public/images/slider-three.png";
+export { default as SliderFour} from "../../public/images/slider-four.png";
+export { default as SliderFive} from "../../public/images/slider-five.png";
+export { default as SliderSix} from "../../public/images/slider-six.png";
 
 
 
