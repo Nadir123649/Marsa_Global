@@ -278,22 +278,8 @@ a {
   border: 1px solid #F3F3F3 !important;
   width: 90%;
   margin-left: auto;
-  padding-left: 300px;
+  padding-left: 250px;
+  padding-right: 20px;
 }
 
-@media screen and (max-width: 1400px) {
-  .mood-img{
-    position: absolute;
-    left: -80px;
-  }
-  .mood-description{
-    width: 65%;
-  }
- 
-}
 
-@media screen and (max-width: 1200px) {
-  .mood-description{
-    width: 100%;
-  }
-}
