@@ -26,10 +26,13 @@ export { default as SliderThree} from "../../public/images/slider-three.png";
 export { default as SliderFour} from "../../public/images/slider-four.png";
 export { default as SliderFive} from "../../public/images/slider-five.png";
 export { default as SliderSix} from "../../public/images/slider-six.png";
-
-
-
-
+export { default as MobileSideLeft} from "../../public/images/mble-side-left.png";
+export { default as MobileEllipsLeft} from "../../public/images/mble-ellips.png";
+export { default as MobileEllipsRight} from "../../public/images/mble-ellips-right.png";
+export { default as PeerMobile} from "../../public/images/peer-mble.png";
+export { default as ModelMobile} from "../../public/images/mode-mbl.png";
+export { default as JournalingMobile} from "../../public/images/journaling-mbl.png";
+export { default as LibraryMobile} from "../../public/images/library-mbl.png";
 
 
 
