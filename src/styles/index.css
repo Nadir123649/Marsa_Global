@@ -179,7 +179,7 @@ a {
   padding: 56px 48px 56px 48px !important;
 }
 
-.contact-form-column{
+.contact-form-column {
   padding: 44px 0px 0px 0px !important;
 }
 
@@ -253,4 +253,17 @@ a {
 .description-part{
   padding-left: 100px !important;
   border: 1px solid #F3F3F3 !important;
+}
+.cigma-container {
+  padding: 48px 27px 64px 48px;
+}
+
+.cigma-card {
+  background-image: url('../../public/images/works-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 426px;
+  border-radius: 20px;
+  padding: 25px 0px 32px 17px;
 }
