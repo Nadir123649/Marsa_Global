@@ -1,4 +1,4 @@
-import { FeatureOne, FeatureThree, FeatureTwo, ImageOne, ImageTwo } from "@/utils";
+import { FeatureOne, FeatureThree, FeatureTwo, ImageOne, ImageTwo, SliderFive, SliderFour, SliderOne, SliderSix, SliderThree, SliderTwo } from "@/utils";
 
 export const featureData = [
     {
@@ -23,3 +23,12 @@ export const featureData = [
         text: "Our features are built around fostering better mental health for all."
     },
 ]
+
+export const slidesData = [
+    { id: 1, image: SliderOne, title: "SlideOne" },
+    { id: 2, image: SliderTwo, title: "SlideTwo" },
+    { id: 3, image: SliderThree, title: "SlideTree" },
+    { id: 4, image: SliderFour, title: "SlideFour" },
+    { id: 5, image: SliderFive, title: "SlideFive" },
+    { id: 6, image: SliderSix, title: "SlideSix" },
+];
