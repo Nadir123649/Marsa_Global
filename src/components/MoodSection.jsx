@@ -8,24 +8,12 @@ const MoodSection = () => {
         <section className='py-[40px]'>
             <Container className='py-[60px]'>
                 <Row>
-                    <Col lg={12} md={12} xs={12} className='flex flex-col relative description-part gap-3  py-[60px] justify-center  items-end rounded-[18px] bg-[rgba(217,_217,_217,_0.10)] [box-shadow:26.233px_-26.233px_26.233px_0px_rgba(165,_165,_165,_0.10)_inset,_-26.233px_26.233px_26.233px_0px_rgba(255,_255,_255,_0.10)_inset] backdrop-filter backdrop-blur-[26.233333587646484px]'>
+                    <Col lg={12} md={12} xs={12} className='flex flex-col relative description-part  gap-3    '>
                         <Image src={Moodimg} alt='mood' className='mood-img' />
-                        <div className='mood-description flex flex-col gap-3'>
-                            <h1 className='text-[#1E1E25] text-[32px] font-bold'>
-                                Your Journey with
-                                <span className='text-[#8BC34A]'>
-                                    Mood Tracking & Insights
-                                </span>
-                            </h1>
-                            <h2 className='text-[#8BC34A] text-[22px] font-normal'>
-                                For Individuals (B2C)
-                            </h2>
-                            <p className='text-[#4F4F4F] text-[20px] leading-[35px]'>
-                                Monitor your emotions, explore personalized resources, and stay connected to a supportive community for a fulfilling wellness journey.
-                            </p>
-                            <h2 className='text-[#8BC34A] text-[22px] font-normal'>
-                                What You’ll Get:
-                            </h2>
+                        <div className='mood-description flex flex-col py-[60px] justify-center  gap-3 rounded-[18px]  bg-[rgba(217,_217,_217,_0.10)] [box-shadow:26.233px_-26.233px_26.233px_0px_rgba(165,_165,_165,_0.10)_inset,_-26.233px_26.233px_26.233px_0px_rgba(255,_255,_255,_0.10)_inset] backdrop-filter backdrop-blur-[26.233333587646484px]'> <h1 className='text-[#1E1E25] text-[32px] font-bold'>Your Journey with<span className='text-[#8BC34A]'> Mood Tracking & Insights</span></h1>
+                            <h2 className='text-[#8BC34A] text-[22px] font-normal'>(For Individuals (B2C)</h2>
+                            <p className='text-[#4F4F4F] text-[20px] leading-[35px]'>Monitor your emotions, explore personalized resources, and stay connected to a supportive community for a fulfilling wellness journey.</p>
+                            <h2 className='text-[#8BC34A] text-[22px] font-normal'>What You’ll Get:</h2>
                             <ul className='mood-list text-[#4F4F4F] text-[16px] leading-[35px]'>
                                 <li>Mood Tracking: Easily log your emotions and visualize your mental health progress.</li>
                                 <li>Guided Resources: Access articles, videos, and exercises tailored to your needs.</li>
