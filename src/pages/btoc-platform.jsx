@@ -4,7 +4,7 @@ import React from 'react';
 const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
-     
+
     </Layout>
   );
 }

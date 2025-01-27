@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Contactus from './Contactus';
 
-const Layout = ({ children,showContactForm }) => {
+const Layout = ({ children, showContactForm }) => {
   return (
     <>
       <Header />
