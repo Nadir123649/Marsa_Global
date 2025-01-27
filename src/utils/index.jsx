@@ -12,3 +12,17 @@ export { default as ImageTwo} from "../../public/images/user-two.svg";
 export { default as BgLeft} from "../../public/images/bg-left.png";
 export { default as BgRight} from "../../public/images/bg-right.png";
 
+export { default as Curve} from "../../public/images/curve.svg";
+export { default as MobileOne} from "../../public/images/mobile-one.svg";
+export { default as MobileTwo} from "../../public/images/mobile-two.svg";
+export { default as MobileThree} from "../../public/images/mobile-three.svg";
+
+export { default as ImageLineOne} from "../../public/images/left-line.svg";
+export { default as ImageLineTwo} from "../../public/images/line-two.svg";
+
+
+
+
+
+
+

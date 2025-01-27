@@ -96,12 +96,12 @@ const Footer = () => {
                         <Link href="/terms-&-services" className='text-white text-[12px] not-italic font-[500] leading-normal underline hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                             Terms of Service
                         </Link>
-                        <Link href="/" className='text-white text-[12px] not-italic font-[500] leading-normal'>
+                        <p className='text-white text-[12px] not-italic font-[500] leading-normal'>
                             © 2024 Cigma. All rights reserved. | Designed by &nbsp;
                             <Link href="/" className='text-white text-[12px] not-italic font-[500] leading-normal underline hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                 Novatore Solutions
                             </Link>
-                        </Link>
+                        </p>
                     </div>
                 </div>
             </Container>
