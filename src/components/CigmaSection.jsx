@@ -4,17 +4,17 @@ import { Col, Container, Row } from 'react-bootstrap';
 const CigmaSection = () => {
     return (
         <section>
-            <Container className='cigma-container'>
+            <Container className='cigma-container feature-card'>
                 <Row>
                     <Col lg={6} md={12} xs={12}>
                         <div>
-                            <h1>
-                                How Cigma Helps You Stay
-                                <span>
+                            <h1 className='text-[#4F4F4F] text-[40px] not-italic font-[700]'>
+                                How Cigma Helps You Stay&nbsp;
+                                <span className='text-[#8BC34A]'>
                                     Connected
                                 </span>
-                                and
-                                <span>
+                                &nbsp;and&nbsp;
+                                <span className='text-[#8BC34A]'>
                                     Healthy
                                 </span>
                             </h1>
