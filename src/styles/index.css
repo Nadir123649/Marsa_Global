@@ -246,3 +246,11 @@ a {
 .padding-footer {
   padding-bottom: 24px !important;
 }
+.mood-list {
+  list-style: disc !important;
+  margin-left: 20px !important;
+}
+.description-part{
+  padding-left: 100px !important;
+  border: 1px solid #F3F3F3 !important;
+}

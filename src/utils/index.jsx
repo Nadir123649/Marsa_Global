@@ -11,4 +11,6 @@ export { default as ImageOne} from "../../public/images/src-image.svg";
 export { default as ImageTwo} from "../../public/images/user-two.svg";
 export { default as BgLeft} from "../../public/images/bg-left.png";
 export { default as BgRight} from "../../public/images/bg-right.png";
+export { default as Moodimg} from "../../public/images/mood-tracking.png";
+
 
