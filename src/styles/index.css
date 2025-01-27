@@ -246,7 +246,14 @@ a {
 .padding-footer {
   padding-bottom: 24px !important;
 }
-
+.mood-list {
+  list-style: disc !important;
+  margin-left: 20px !important;
+}
+.description-part{
+  padding-left: 100px !important;
+  border: 1px solid #F3F3F3 !important;
+}
 .cigma-container {
   padding: 48px 27px 64px 48px;
 }
@@ -259,4 +266,38 @@ a {
   min-height: 426px;
   border-radius: 20px;
   padding: 25px 0px 32px 17px;
+}
+
+.mood-img{
+  position: absolute;
+  left: -60px;
+}
+.mood-description{
+  width: 67%;
+}
+/* .apple-img{
+  position: absolute;
+  bottom: -120px;
+  left: 10px;
+}
+.play-img{
+  position: absolute;
+  bottom: -120px;
+  left: 140px;
+} */
+@media screen and (max-width: 1400px) {
+  .mood-img{
+    position: absolute;
+    left: -80px;
+  }
+  .mood-description{
+    width: 65%;
+  }
+ 
+}
+
+@media screen and (max-width: 1200px) {
+  .mood-description{
+    width: 100%;
+  }
 }
