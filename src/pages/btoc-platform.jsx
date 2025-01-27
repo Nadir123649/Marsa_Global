@@ -3,8 +3,8 @@ import React from 'react';
 
 const BtowoCPlatform = () => {
   return (
-    <Layout>
-      btc
+    <Layout showContactForm={true}>
+     
     </Layout>
   );
 }
