@@ -22,7 +22,7 @@ const MoodSection = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col lg={4} md={4} xs={12}  className='flex flex-row justify-center pt-[60px]'>
+                    <Col lg={4} md={4} xs={12} className='flex flex-row justify-center pt-[60px]'>
                         <Image src={Appstore} alt='mood' className='apple-img' />
                         <Image src={Applestore} alt='mood' className='play-img' />
                     </Col>
