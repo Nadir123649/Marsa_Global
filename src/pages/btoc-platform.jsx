@@ -7,7 +7,7 @@ import React from 'react';
 const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
-      <section className='pt-[30px]'>
+      <section className='pt-[70px] overflow-hidden'>
            
       <MobileLeft
         mobileImg={MobileSideLeft}
