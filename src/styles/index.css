@@ -308,12 +308,7 @@ img {
   left: -60px;
   top: -150px;
 }
-.ellipsleft-img{
-  position: absolute;
-  z-index: 0;
-  left: -60px;
-  top: -200px;
-}
+
 .mobileright-img{
   z-index: 2;
   position: absolute;
@@ -324,6 +319,16 @@ img {
 .ellipsright-img{
   position: absolute;
   z-index: -1;
-  right: -60px;
-  top: -150px;
+  right: 0;
+  top: -40px;
+  max-width: 553px;
+  width: 100%;
+}
+.ellipsleft-img{
+  position: absolute;
+  z-index: 0;
+  max-width: 553px;
+  width: 100%;
+  left: 0px;
+  top: -40px;
 }
