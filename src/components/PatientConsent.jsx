@@ -2,10 +2,10 @@ import { Container } from 'react-bootstrap'
 
 const PatientConsent = () => {
     return (
-        <section>
+        <section className='mt-[110px]'>
             <Container>
                 <h1 className='text-[#8BC34A] text-[48px] font-bold mt-[32px] mb-[32px]'>Patient Consent <span className='text-[#494949]'>Disclaimer</span></h1>
-                <div className='custom-border py-[32px] '>
+                <div className='custom-border py-[32px]'>
                     <h2 className='font-semibold text-[24px]'>Effective Date: <span className='text-[#8BC34A] font-medium'> January 23, 2025</span> </h2>
                 </div>
                 <div className='py-[32px]'>

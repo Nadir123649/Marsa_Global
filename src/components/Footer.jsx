@@ -73,17 +73,17 @@ const Footer = () => {
                 </div>
                 <div className='footer-bottom flex justify-between items-center pt-[20px]'>
                     <div className='flex items-center justify-center gap-4'>
-                        <Link href="" >
-                            <FaFacebookF size={18} className='text-white  hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
+                        <Link href="https://www.facebook.com/share/1BXfd9RBFn/" target='_blank'>
+                            <FaFacebookF size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
-                        <Link href="" >
-                            <FaTwitter size={18} className='text-white  hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
+                        <Link href="" target='_blank' >
+                            <FaTwitter size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
-                        <Link href="" >
-                            <FaLinkedinIn size={18} className='text-white  hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
+                        <Link href="www.linkedin.com/in/get-cigma-101172341" target='_blank'>
+                            <FaLinkedinIn size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
-                        <Link href="" >
-                            <FaInstagram size={18} className='text-white  hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
+                        <Link href="https://www.instagram.com/getcigma?igsh=MTZmaGFod2F1eWtlYQ==" target='_blank' >
+                            <FaInstagram size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
                     </div>
                     <div className='flex items-center justify-center gap-[24px] '>
@@ -96,9 +96,9 @@ const Footer = () => {
                         <Link href="/terms-&-services" className='text-white text-[12px] not-italic font-[500] leading-normal underline hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                             Terms of Service
                         </Link>
-                        <p className='text-white text-[12px] not-italic font-[500] leading-normal'>
+                        <p className='text-white text-[12px] not-italic font-[500] leading-normal mb-0'>
                             © 2024 Cigma. All rights reserved. | Designed by &nbsp;
-                            <Link href="/" className='text-white text-[12px] not-italic font-[500] leading-normal underline hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
+                            <Link href="https://novatoresols.com" target='_blank' className='text-white text-[12px] not-italic font-[500] leading-normal underline hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                 Novatore Solutions
                             </Link>
                         </p>

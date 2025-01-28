@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap'
 
 const PrivacyPolicy = () => {
     return (
-        <section>
+        <section className='mt-[110px]'>
             <Container>
                 <h1 className='text-[#8BC34A] text-[48px] font-bold mt-[32px] mb-[32px]'>Our Privacy <span className='text-[#494949]'>Policy</span></h1>
                 <div className='custom-border py-[32px]'>
