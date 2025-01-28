@@ -1,13 +1,12 @@
-import { PodFour, PodOne, PodThree, PodTwo, SearchIcon } from "@/utils";
+import { SearchIcon } from "@/utils";
 import Image from 'next/image';
-import { Container, Dropdown } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const ResourcesHead = () => {
     return (
         <section className="py-[40px]">
-            <Container>
+            <Container className="p-0">
                 <div className="flex justify-between items-center">
-
                     <div className="input-search relative min-w-[406px] rounded-[16px] border border-[#C6C6C6] ">
                         <input
                             type="text"
@@ -18,8 +17,6 @@ const ResourcesHead = () => {
                             <Image src={SearchIcon} />
                         </div>
                     </div>
-
-
                     <select className="sort-dropdown rounded-[16px] py-[13px] px-2 cursor-pointer ">
                         <option value="Reading">Sort By</option>
                         <option value="Reading">Reading</option>

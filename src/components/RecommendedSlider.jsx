@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from "next/link";
-import { ConnectFriends, ConnectNew, ConnectNow, PhoneFriend } from "@/utils";
+import { ConnectFriends, ConnectNew, ConnectNow, PhoneFriend, ResourcesBg } from "@/utils";
 
 const RecommendedSlider = () => {
     const slides = [
@@ -61,7 +61,8 @@ const RecommendedSlider = () => {
     ];
 
     return (
-        <section > 
+        <section>
+            <Image className="absolute right-0" src={ResourcesBg} /> 
             <Container >
                 <h1 className="text-[#4A4A4A] text-[32px] pb-[40px] font-bold">Recommended Reading</h1>
                 <div class="auto_slider_container flex gap-4 pb-[80px]">

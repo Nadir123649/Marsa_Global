@@ -1,4 +1,4 @@
-import { BlogFour, BlogOne, BlogThree, BlogTwo } from "@/utils";
+import { BlogFour, BlogOne, BlogThree, BlogTwo, ResourcesBg } from "@/utils";
 import Image from 'next/image';
 import Link from "next/link";
 import { Container } from 'react-bootstrap';
@@ -61,6 +61,7 @@ const BlogsSlider = () => {
 
     return (
         <section className="pb-[50px]"> 
+           <Image className="absolute right-0" src={ResourcesBg} /> 
             <Container >
                 <h1 className="text-[#4A4A4A] text-[32px] pb-[40px] font-bold">Recommended Blogs</h1>
                 <div class="auto_slider_container flex gap-4 pb-[80px]">

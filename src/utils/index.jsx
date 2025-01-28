@@ -48,3 +48,4 @@ export { default as PodTwo} from "../../public/images/pod-two.png";
 export { default as PodThree} from "../../public/images/pod-three.png";
 export { default as PodFour} from "../../public/images/pod-four.png";
 export { default as SearchIcon} from "../../public/images/search-icon.svg";
+export { default as ResourcesBg} from "../../public/images/resourcesbg-one.png";
