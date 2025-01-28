@@ -8,7 +8,7 @@ const TermsServices = () => {
             <Image src={BgLeft} alt='privacy' className='absolute left-0 top-[950px]' width={407} height={326} />
             <Image src={BgRight} alt='privacy' className='absolute right-0 top-[1700px]' width={407} height={326} />
             <Container>
-                <h1 className='title-main  text-[#8BC34A] text-[48px] font-bold py-[32px]'>CIGMA<span className='text-[#494949]'>Terms of Service</span></h1>
+                <h1 className='title-main  text-[#8BC34A] text-[48px] font-bold py-[32px]'>CIGMA<span className='text-[#494949]'> Terms of Service</span></h1>
                 <div className='py-[32px]'>
                     <p className='text-[24px] text-[#494949] leading-[35px]'>These Terms of Service ("Terms") govern your access to and use of the CIGMA mobile application ("App") provided by CIGMA, a global mental health service provider ("we,"our," or "us"). By downloading, accessing, or using the CIGMA App, you agree to comply with these Terms. If you do not agree with these Terms, you may not use the App.</p>
                 </div>
@@ -28,7 +28,8 @@ const TermsServices = () => {
                 {/* 3- Use of the CIGMA App*/}
                 <div className='custom-border py-[32px]'>
                     <h2 className='font-bold text-[24px] text-[#8BC34A] mb-[24px]'>3- Use of the CIGMA App</h2>
-                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>The CIGMA App is designed to provide mental health resources, including tools for self-assessment, stress management, emotional well-being, and AI-driven insights based on a rigorous medical knowledge base. You agree to use the App solely for personal and non-commercial purposes. You are prohibited from using the App for any unlawful or harmful activities, including but not limited to harassment, fraud, or any activities that violate local laws
+                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>
+                        The CIGMA App is designed to provide mental health resources, including tools for self-assessment, stress management, emotional well-being, and AI-driven insights based on a rigorous medical knowledge base. You agree to use the App solely for personal and non-commercial purposes. You are prohibited from using the App for any unlawful or harmful activities, including but not limited to harassment, fraud, or any activities that violate local laws.
                     </p>
                 </div>
                 {/* 4- Privacy and Safeguards*/}
@@ -72,7 +73,9 @@ const TermsServices = () => {
                 {/*11- Governing Law*/}
                 <div className='custom-border py-[32px]'>
                     <h2 className='font-bold text-[24px] text-[#8BC34A] mb-[24px]'>11- Governing Law</h2>
-                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>These Terms will be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law principles</p>
+                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>
+                        These Terms will be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of law principles
+                    </p>
                 </div>
                 {/*12- Contact Information*/}
                 <div className='custom-border py-[32px]'>

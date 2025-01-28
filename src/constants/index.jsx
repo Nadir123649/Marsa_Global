@@ -18,7 +18,7 @@ export const featureData = [
     {
         id: 3,
         image: FeatureThree,
-        imageSrc: ImageTwo,
+        imageSrc: ImageOne,
         name: "Wellness Focused",
         text: "Our features are built around fostering better mental health for all."
     },

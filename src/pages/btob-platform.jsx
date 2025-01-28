@@ -24,7 +24,7 @@ const BtwobPlatform = () => {
                 title="Guided"
                 subtitle="Journaling"
                 description="Encourage self-discovery and emotional expression with structured journaling prompts."
-                boldDescription="Strengthen Culture: "
+                boldDescription="Strengthen Culture:"
                 simpleDescription="Show your team that you care about their well-being, fostering loyalty and engagement." />
             <CorporateRight
                 title="Resource"

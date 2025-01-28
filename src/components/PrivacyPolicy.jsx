@@ -143,20 +143,9 @@ const PrivacyPolicy = () => {
                     <ul className='contact-list flex flex-col gap-[8px] list-disc'>
                         <li className=''>
                             <p className='text-[#4E4E4E] text-[24px] leading-[35px]'>
-                                [Insert Contact Email]
+                            If you have any questions or concerns, contact us at: lifecigma@gmail.com
                             </p>
                         </li>
-                        <li>
-                            <p className='text-[#4E4E4E] text-[24px] leading-[30px]'>
-                                [Insert Contact Phone Number]
-                            </p>
-                        </li>
-                        <li>
-                            <p className='text-[#4E4E4E] text-[24px] leading-[30px]'>
-                                [Insert Address, if applicable]
-                            </p>
-                        </li>
-
                     </ul>
                 </div>
             </Container>
