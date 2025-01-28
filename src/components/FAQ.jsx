@@ -21,7 +21,7 @@ const FAQ = () => {
     return (
         <section>
             <Container className="p-0 ">
-                <h1 className="text-[#4A4A4A] text-[20px] font-semibold pb-[40px] text-center">FAQ's</h1>
+                <h1 className="text-[#4A4A4A] text-[32px] font-bold pb-[40px] text-center">FAQ's</h1>
                 {questions.map((item, index) => (
                     <div key={index} className="py-2">
                         <div
