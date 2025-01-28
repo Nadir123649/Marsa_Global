@@ -18,7 +18,7 @@ const Footer = () => {
                         <Image src={FooterLogoNew} />
                     </div>
                     <div className='col-span-8'>
-                        <ul className="flex items-center justify-between gap-2 list-none padding-footer">
+                        <ul className="flex items-center justify-between gap-[6px] list-none padding-footer">
                             <li>
                                 <Link href="/" className="text-white text-[18px] font-[400] not-italic leading-normal hover transition-all duration-300 ease-in-out">
                                     Home
