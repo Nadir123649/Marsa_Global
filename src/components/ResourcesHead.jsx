@@ -1,13 +1,12 @@
-import { PodFour, PodOne, PodThree, PodTwo, SearchIcon } from "@/utils";
+import { SearchIcon } from "@/utils";
 import Image from 'next/image';
-import { Container, Dropdown } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const ResourcesHead = () => {
     return (
-        <section className="py-[30px]">
-            <Container>
+        <section className="py-[40px]">
+            <Container className="p-0">
                 <div className="flex justify-between items-center">
-                    {/* Left side: Search input */}
                     <div className="input-search relative min-w-[406px] rounded-[16px] border border-[#C6C6C6] ">
                         <input
                             type="text"
@@ -18,20 +17,12 @@ const ResourcesHead = () => {
                             <Image src={SearchIcon} />
                         </div>
                     </div>
-
-                    {/* Right side: Sort dropdown */}
-                    <div>
-                        <Dropdown>
-                            <Dropdown.Toggle id="dropdown-basic" className="sort-dropdown">
-                                Sort By
-                            </Dropdown.Toggle>
-                            <Dropdown.Menu>
-                                <Dropdown.Item href="/">Readings</Dropdown.Item>
-                                <Dropdown.Item href="/">Blogs</Dropdown.Item>
-                                <Dropdown.Item href="/">Podcast</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
-                    </div>
+                    <select className="sort-dropdown rounded-[16px] py-[13px] px-2 cursor-pointer ">
+                        <option value="Reading">Sort By</option>
+                        <option value="Reading">Reading</option>
+                        <option value="Podcast">Podcast</option>
+                        <option value="Blogs">Blogs</option>
+                    </select>
                 </div>
             </Container>
         </section>
