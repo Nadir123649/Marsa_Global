@@ -332,3 +332,31 @@ img {
   left: 0px;
   top: -40px;
 }
+
+
+/* faq css */
+
+.chevron-icon {
+  font-size: 18px !important;
+  transition: transform 0.3s ease;
+}
+
+.chevron-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-title{
+  border:  1px solid #D3D3D3;
+}
+.accordion-content{
+  /* border: 1px solid #D3D3D3; */
+  transition: all 0.3s ease;
+}
+.border-full{
+  border:  1px solid #D3D3D3;
+}
+.border-bottom{
+  border-bottom: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+}
