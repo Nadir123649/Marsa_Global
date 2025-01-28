@@ -360,3 +360,32 @@ img {
   border-right: 1px solid #d3d3d3;
   border-left: 1px solid #d3d3d3;
 }
+
+/* slider csss */
+.auto_slider_container{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  border-bottom:  1px solid #D9D9D9;
+}
+
+.auto_slider{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+ 0% {
+  transform:translateX(0)
+ }
+ 100% {
+  transform:translateX(-100%)
+ }
+}
+
