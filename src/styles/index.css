@@ -225,6 +225,11 @@ img {
   padding-top: 20px !important;
 }
 
+.info-listed {
+  list-style: disc !important;
+  margin-left: 20px !important;
+}
+
 .contact-list {
   padding-top: 20px !important;
 }
