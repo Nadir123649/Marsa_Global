@@ -1,4 +1,4 @@
-import { BlogFour, BlogOne, BlogThree, BlogTwo, PodFour, PodOne, PodThree, PodTwo } from "@/utils";
+import { BlogFour, BlogOne, BlogThree, BlogTwo, PodFour, PodOne, PodThree, PodTwo, ResourcesBgTwo } from "@/utils";
 import Image from 'next/image';
 import Link from "next/link";
 import { Container } from 'react-bootstrap';
@@ -43,6 +43,7 @@ const PodcastSlider = () => {
 
     return (
         <section className="py-[30px]">
+            <Image className="absolute left-0" src={ResourcesBgTwo} /> 
             <Container >
                 <h1 className="text-[#4A4A4A] text-[32px] pb-[40px] font-bold">Recommended Podcasts</h1>
                 <div class="auto_slider_container flex gap-4 pb-[80px]">

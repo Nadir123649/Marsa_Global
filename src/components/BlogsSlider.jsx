@@ -1,4 +1,4 @@
-import { BlogFour, BlogOne, BlogThree, BlogTwo, ResourcesBg } from "@/utils";
+import { BlogFour, BlogOne, BlogThree, BlogTwo, ResourcesBg, ResourcesBgTwo } from "@/utils";
 import Image from 'next/image';
 import Link from "next/link";
 import { Container } from 'react-bootstrap';
