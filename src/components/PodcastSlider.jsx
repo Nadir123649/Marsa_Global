@@ -42,11 +42,11 @@ const PodcastSlider = () => {
     ];
 
     return (
-        <section className="py-[30px]">
+        <section className="pt-[62px] pb-[60px]">
             <Image className="absolute left-0" src={ResourcesBgTwo} /> 
             <Container >
-                <h1 className="text-[#4A4A4A] text-[32px] pb-[40px] font-bold">Recommended Podcasts</h1>
-                <div class="auto_slider_container flex gap-4 pb-[80px]">
+                <h1 className="text-[#4A4A4A] text-[32px] pb-[30px] font-bold">Recommended Podcasts</h1>
+                <div class="auto_slider_container flex gap-4 pb-[60px]">
                     <div class="auto_slider flex gap-4">
                         {slides.map((slide, index) => (
                             <div key={index} className="slide flex flex-col gap-[10px] min-w-[282px]">
