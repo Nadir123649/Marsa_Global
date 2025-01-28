@@ -32,6 +32,7 @@ export { default as MobileEllipsRight} from "../../public/images/mble-ellips-rig
 export { default as PeerMobile} from "../../public/images/peer-mble.png";
 export { default as ModelMobile} from "../../public/images/mode-mbl.png";
 export { default as JournalingMobile} from "../../public/images/journaling-mbl.png";
+
 export { default as LibraryMobile} from "../../public/images/library-mbl.png";
 export { default as LeftGroup} from "../../public/images/left-group.png";
 export { default as RightGroup} from "../../public/images/right-group.png";
