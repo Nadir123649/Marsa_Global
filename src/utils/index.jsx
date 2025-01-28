@@ -34,8 +34,10 @@ export { default as ModelMobile} from "../../public/images/mode-mbl.png";
 export { default as JournalingMobile} from "../../public/images/journaling-mbl.png";
 export { default as LibraryMobile} from "../../public/images/library-mbl.png";
 export { default as LeftGroup} from "../../public/images/left-group.png";
-
-
+export { default as ConnectNew} from "../../public/images/connect-new.png";
+export { default as ConnectFriends} from "../../public/images/connect-friends.png";
+export { default as ConnectNow} from "../../public/images/connect-now.png";
+export { default as PhoneFriend} from "../../public/images/phone-friend.png";
 
 
 
