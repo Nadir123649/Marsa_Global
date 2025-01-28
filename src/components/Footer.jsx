@@ -18,7 +18,7 @@ const Footer = () => {
                         <Image src={FooterLogoNew} />
                     </div>
                     <div className='col-span-8'>
-                        <ul className="flex items-center justify-between gap-4 list-none padding-footer">
+                        <ul className="flex items-center justify-between gap-2 list-none padding-footer">
                             <li>
                                 <Link href="/" className="text-white text-[18px] font-[400] not-italic leading-normal hover transition-all duration-300 ease-in-out">
                                     Home
@@ -65,7 +65,7 @@ const Footer = () => {
                                     type="email"
                                     placeholder='Enter Email' />
                             </div>
-                            <button className='text-[#8BC34A] border-1 border-[#8BC34A] h-[50px] px-[24px] py-[16px] rounded-[16px] max-w-[130px] w-full hover:bg-[#8BC34A] transition-all duration-300 ease-in-out hover:text-white  hover:border-[#8BC34A] hover:border-[1px]'>
+                            <button className='flex justify-center items-center text-[#8BC34A] border-1 border-[#8BC34A] h-[50px] px-[24px] py-[16px] rounded-[16px] max-w-[130px] w-full hover:bg-[#8BC34A] transition-all duration-300 ease-in-out hover:text-white  hover:border-[#8BC34A] hover:border-[1px]'>
                                 Subscribe
                             </button>
                         </div>
