@@ -17,7 +17,6 @@ const FAQ = () => {
         { question: "How is mental health treated?", answer: "Mental health refers to a person's emotional, psychological, and social well-being." },
         { question: "How can I support someone with a mental health issue?", answer: "Mental health refers to a person's emotional, psychological, and social well-being." }
     ];
-
     return (
         <section>
             <Container className="p-0 ">

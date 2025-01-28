@@ -449,11 +449,6 @@ img {
   min-width: 282px; /* Width of each slide */
 }
 
-@media (max-width: 767px) {
-  .slide {
-    min-width: 100%; /* Make each slide take full width on smaller screens */
-  }
-}
 
 
 
@@ -473,4 +468,15 @@ input:focus {
 .search-box {
   border-left: 1px solid #c6c6c6;
   padding-left: 10px;
+}
+@media (max-width: 1400px) {
+  .mood-img{
+   top: -20px; 
+  }
+}
+
+@media (max-width: 767px) {
+  .slide {
+    min-width: 100%; 
+  }
 }
