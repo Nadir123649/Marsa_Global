@@ -20,7 +20,8 @@ const FAQ = () => {
 
     return (
         <section>
-            <Container className="p-0">
+            <Container className="p-0 ">
+                <h1 className="text-[#4A4A4A] text-[32px] font-semibold pb-[20px]">FAQ's</h1>
                 {questions.map((item, index) => (
                     <div key={index} className="py-2">
                         <div
