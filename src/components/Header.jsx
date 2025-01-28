@@ -25,12 +25,12 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
+                                <Link href="/btoc-platform" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     B2C Platform
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/b2b-platform" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
+                                <Link href="/btob-platform" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     B2B Platform
                                 </Link>
                             </li>
