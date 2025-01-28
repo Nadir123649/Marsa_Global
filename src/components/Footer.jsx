@@ -76,7 +76,7 @@ const Footer = () => {
                         <Link href="https://www.facebook.com/share/1BXfd9RBFn/" target='_blank'>
                             <FaFacebookF size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
-                        <Link href="" target='_blank' >
+                        <Link href="" className=' cursor-not-allowed' >
                             <FaTwitter size={18} className='text-white hover:text-[#8BC34A] transition-all duration-300 ease-in-out hover' />
                         </Link>
                         <Link href="www.linkedin.com/in/get-cigma-101172341" target='_blank'>
