@@ -8,6 +8,7 @@ import CoreFeatures from '@/components/CoreFeatures';
 import CigmaSection from '@/components/CigmaSection';
 import MoodSection from '@/components/MoodSection';
 import CommunitySlider from '@/components/CommunitySlider';
+import EmpowerRight from '@/components/EmpowerRight';
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
                 <CoreFeatures />
                 <CigmaSection />
                 <MoodSection />
+                <EmpowerRight />
                 <CommunitySlider />
             </main>
             <Contactus />
