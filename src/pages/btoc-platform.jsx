@@ -1,3 +1,4 @@
+import BannerLanding from '@/components/BannerLanding';
 import Layout from '@/components/layout';
 import MobileLeft from '@/components/MobileLeft';
 import MobileRight from '@/components/MobileRight';
@@ -7,6 +8,7 @@ import React from 'react';
 const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
+      <BannerLanding title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end"/>
       <section className='pt-[70px] overflow-hidden'>
         <MobileLeft
           mobileImg={MobileSideLeft}
@@ -40,7 +42,6 @@ const BtowoCPlatform = () => {
           mobiledescription="Access a wealth of mental health resources, including articles, videos, and tools to help you navigate your personal growth. From stress management and mindfulness, to coping strategies and emotional resilience; users can explore these resources at their own pace, gaining valuable insights to navigate personal growth and overcome mental health challenges. "
         />
       </section>
-
     </Layout>
   );
 }
