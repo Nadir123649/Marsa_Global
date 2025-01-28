@@ -25,11 +25,11 @@ const FAQ = () => {
                 {questions.map((item, index) => (
                     <div key={index} className="py-2">
                         <div
-                            className={`accordion-title font-medium text-[20px] bg-[#fbfbfb] px-[20px] py-[16px] cursor-pointer d-flex justify-content-between align-items-center 
+                            className={`accordion-title font-medium text-[32px] bg-[#fbfbfb] px-[20px] py-[16px] cursor-pointer d-flex justify-content-between align-items-center 
                             ${openIndex === index ? 'rounded-t-[16px]' : 'rounded-[16px]'}`}
                             onClick={() => toggleAccordion(index)}
                         >
-                            <h2 className="mb-0">{item.question}</h2>
+                            <h2 className="mb-0 text-[20px] ">{item.question}</h2> 
                             <FaChevronDown
                                 className={`chevron-icon text-[#8BC34A] ${openIndex === index ? "rotate" : ""}`}
                             />
