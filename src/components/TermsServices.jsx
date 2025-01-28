@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const TermsServices = () => {
     return (
-        <section>
+        <section className='mt-[110px]'>
             <Image src={BgLeft} alt='privacy' className='absolute left-0 top-[950px]' width={407} height={326} />
             <Image src={BgRight} alt='privacy' className='absolute right-0 top-[1700px]' width={407} height={326} />
             <Container>
