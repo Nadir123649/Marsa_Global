@@ -32,7 +32,6 @@ export { default as MobileEllipsRight} from "../../public/images/mble-ellips-rig
 export { default as PeerMobile} from "../../public/images/peer-mble.png";
 export { default as ModelMobile} from "../../public/images/mode-mbl.png";
 export { default as JournalingMobile} from "../../public/images/journaling-mbl.png";
-
 export { default as LibraryMobile} from "../../public/images/library-mbl.png";
 export { default as LeftGroup} from "../../public/images/left-group.png";
 export { default as RightGroup} from "../../public/images/right-group.png";
@@ -56,3 +55,4 @@ export { default as CigmaCard} from "../../public/images/works-img.png";
 export { default as BannerYourself} from "../../public/images/banner-bg-btob.png";
 export { default as CareYourself} from "../../public/images/banner-bg-grouped.png";
 export { default as UserBox} from "../../public/images/bg-user-box.svg";
+export { default as FooterLogoNew} from "../../public/images/footer-logo.svg";

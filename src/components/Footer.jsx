@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import Image from 'next/image';
-import { FooterLogo } from '@/utils';
+import { FooterLogo, FooterLogoNew } from '@/utils';
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <Container className='footer text-[#FFFFFF] bg-[linear-gradient(188.43deg,_#373737_7.17%,_#313131_94.35%)] rounded-[29px]'>
                 <div className='footer-top grid grid-cols-12'>
                     <div className='col-span-4'>
-                        <Image src={FooterLogo} />
+                        <Image src={FooterLogoNew} />
                     </div>
                     <div className='col-span-8'>
                         <ul className="flex items-center justify-between gap-4 list-none padding-footer">

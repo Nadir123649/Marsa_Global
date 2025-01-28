@@ -407,9 +407,8 @@ img {
 }
 
 .chevron {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 30px;
+  background-color: transparent;
+  color:  #8BC34A;
   padding: 10px;
   cursor: pointer;
   border: none;
@@ -420,14 +419,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid  #8BC34A;
 }
-
-.chevron.left {
-  padding-left: 12px;
-}
-
-.chevron.right {
-  padding-right: 12px;
+.chevron:hover{
+  background-color:#8BC34A;
+  border: 1px solid transparent;
+  color: white;
 }
 
 .auto_slider_container {
@@ -442,11 +439,11 @@ img {
 .auto_slider {
   display: flex;
   gap: 16px;
-  transition: transform 0.5s ease-in-out; /* Smooth transition for sliding */
+  transition: transform 0.5s ease-in-out; 
 }
 
 .slide {
-  min-width: 282px; /* Width of each slide */
+  min-width: 282px; 
 }
 
 
