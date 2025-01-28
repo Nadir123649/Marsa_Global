@@ -1,4 +1,4 @@
-import { ImagesBanner } from '@/utils';
+import { HeroBG, ImagesBanner, UserBox } from '@/utils';
 import Image from 'next/image';
 import React from 'react';
 import { Container } from 'react-bootstrap';
@@ -6,7 +6,8 @@ import { Container } from 'react-bootstrap';
 const Banner = () => {
     return (
         <section className='banner mt-[115px]'>
-            <Container className='p-0 banner-image min-h-[85vh] rounded-[29px] flex items-center'>
+            <Container style={{
+                backgroundImage: `url(${HeroBG.src})`}} className='p-0 banner-image min-h-[85vh] rounded-[29px] flex items-center'>
                 <div className='banner-content pl-[56px]'>
                     <h1 className='text-white text-[64px] not-italic font-[700] leading-[88px] max-w-[571px] w-full mb-[16px]'>
                         Cigma: Connect, Thrive, Be Well.
@@ -15,7 +16,7 @@ const Banner = () => {
                         Chat freely. Prioritize your mental health.
                     </p>
                     <div className='flex items-center gap-[16px] mt-[40px]'>
-                        <div className='flex items-center gap-[10px] user-box justify-center'>
+                        <div style={{backgroundImage: `url(${UserBox.src})` }} className='flex items-center gap-[10px] user-box justify-center'>
                             <Image src={ImagesBanner} alt="user-images" />
                             <div className='flex flex-col items-start gap-0'>
                                 <span className='text-white text-[24px] not-italic font-[700]'>
