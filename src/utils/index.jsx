@@ -50,4 +50,8 @@ export { default as PodFour} from "../../public/images/pod-four.png";
 export { default as SearchIcon} from "../../public/images/search-icon.svg";
 export { default as ResourcesBg} from "../../public/images/resourcesbg-one.png";
 export { default as ResourcesBgTwo} from "../../public/images/resourcesbg-two.png";
-
+export { default as HeroBG} from "../../public/images/banner-bg.png";
+export { default as CigmaCard} from "../../public/images/works-img.png";
+export { default as BannerYourself} from "../../public/images/banner-bg-btob.png";
+export { default as CareYourself} from "../../public/images/banner-bg-grouped.png";
+export { default as UserBox} from "../../public/images/bg-user-box.svg";

@@ -2,13 +2,13 @@ import BannerLanding from '@/components/BannerLanding';
 import Layout from '@/components/layout';
 import MobileLeft from '@/components/MobileLeft';
 import MobileRight from '@/components/MobileRight';
-import { MobileSideLeft } from '@/utils';
+import { BannerYourself, MobileSideLeft } from '@/utils';
 import React from 'react';
 
 const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
-      <BannerLanding title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end"/>
+      <BannerLanding style={BannerYourself} title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end" />
       <section className='pt-[70px] overflow-hidden'>
         <MobileLeft
           mobileImg={MobileSideLeft}

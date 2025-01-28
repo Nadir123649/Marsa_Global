@@ -2,12 +2,13 @@ import BannerLanding from '@/components/BannerLanding';
 import CorporateLeft from '@/components/CorporateLeft';
 import CorporateRight from '@/components/CorporateRight';
 import Layout from '@/components/layout';
+import { BannerYourself, CareYourself } from '@/utils';
 import React from 'react';
 
 const BtwobPlatform = () => {
     return (
         <Layout showContactForm={true}>
-            <BannerLanding title="Corporate" subtitle="Care" />
+            <BannerLanding  style={CareYourself}  title="Corporate" subtitle="Care" />
             <CorporateLeft
                 title="Peer-to-Peer"
                 subtitle="Messaging"
