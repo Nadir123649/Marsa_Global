@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap'
 
 const Header = () => {
     return (
-        <header className='py-[14px]'>
+        <header className='fixed inset-0 bg-[#FFF] z-50 h-[100px] flex flex-col justify-center items-center'>
             <Container className='flex justify-between items-center p-0'>
                 <Link href="/">
                     <Image
@@ -19,22 +19,22 @@ const Header = () => {
                 <div className='flex items-center gap-[32px]'>
                     <nav>
                         <ul className='flex items-center gap-[32px]'>
-                            <li>
+                            <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                 <Link href="/" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     Home
                                 </Link>
                             </li>
-                            <li>
+                            <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                 <Link href="/btoc-platform" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     B2C Platform
                                 </Link>
                             </li>
-                            <li>
+                            <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                 <Link href="/btob-platform" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     B2B Platform
                                 </Link>
                             </li>
-                            <li>
+                            <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'> 
                                 <Link href="/resources" className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A] transition-all duration-300 ease-in-out'>
                                     Resources
                                 </Link>

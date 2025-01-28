@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 
 const Banner = () => {
     return (
-        <section className='banner'>
+        <section className='banner mt-[115px]'>
             <Container className='p-0 banner-image min-h-[85vh] rounded-[29px] flex items-center'>
                 <div className='banner-content pl-[56px]'>
                     <h1 className='text-white text-[64px] not-italic font-[700] leading-[88px] max-w-[571px] w-full mb-[16px]'>
