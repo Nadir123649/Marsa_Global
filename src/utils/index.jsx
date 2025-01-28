@@ -39,7 +39,12 @@ export { default as ConnectNew} from "../../public/images/connect-new.png";
 export { default as ConnectFriends} from "../../public/images/connect-friends.png";
 export { default as ConnectNow} from "../../public/images/connect-now.png";
 export { default as PhoneFriend} from "../../public/images/phone-friend.png";
-
-
-
-
+export { default as BlogOne} from "../../public/images/blog-one.png";
+export { default as BlogTwo} from "../../public/images/blog-two.png";
+export { default as BlogThree} from "../../public/images/blog-three.png";
+export { default as BlogFour} from "../../public/images/blog-four.png";
+export { default as PodOne} from "../../public/images/pod-one.png";
+export { default as PodTwo} from "../../public/images/pod-two.png";
+export { default as PodThree} from "../../public/images/pod-three.png";
+export { default as PodFour} from "../../public/images/pod-four.png";
+export { default as SearchIcon} from "../../public/images/search-icon.svg";

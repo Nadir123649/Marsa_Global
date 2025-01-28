@@ -191,19 +191,19 @@ img {
 }
 
 .custom-border {
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .banner-image {
-  background-image: url('../../public/images/banner-bg.png');
+  background-image: url("../../public/images/banner-bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .user-box {
-  background-image: url('../../public/images/bg-user-box.svg');
+  background-image: url("../../public/images/bg-user-box.svg");
   height: 64px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,9 +213,10 @@ img {
 
 .feature-card {
   border-radius: 18px;
-  border: 1px solid #F3F3F3;
-  background: rgba(217, 217, 217, 0.10);
-  box-shadow: 26.233px -26.233px 26.233px 0px rgba(165, 165, 165, 0.10) inset, -26.233px 26.233px 26.233px 0px rgba(255, 255, 255, 0.10) inset;
+  border: 1px solid #f3f3f3;
+  background: rgba(217, 217, 217, 0.1);
+  box-shadow: 26.233px -26.233px 26.233px 0px rgba(165, 165, 165, 0.1) inset,
+    -26.233px 26.233px 26.233px 0px rgba(255, 255, 255, 0.1) inset;
   backdrop-filter: blur(26.233333587646484px);
 }
 
@@ -235,7 +236,7 @@ img {
 }
 
 .title-main {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .footer {
@@ -248,11 +249,11 @@ img {
 }
 
 .underline:hover {
-  color: #8BC34A !important;
+  color: #8bc34a !important;
 }
 
 .hover:hover {
-  color: #8BC34A !important;
+  color: #8bc34a !important;
 }
 
 .padding-footer {
@@ -266,7 +267,6 @@ img {
 
 .description-part {
   padding-left: 100px !important;
-
 }
 
 .cigma-container {
@@ -274,7 +274,7 @@ img {
 }
 
 .cigma-card {
-  background-image: url('../../public/images/works-img.png');
+  background-image: url("../../public/images/works-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -291,7 +291,7 @@ img {
 }
 
 .mood-description {
-  border: 1px solid #F3F3F3 !important;
+  border: 1px solid #f3f3f3 !important;
   width: 90%;
   margin-left: auto;
   padding-left: 250px;
@@ -299,7 +299,7 @@ img {
 }
 
 .mble-left-description {
-  border: 1px solid #F3F3F3 !important;
+  border: 1px solid #f3f3f3 !important;
   width: 90%;
   margin-left: auto;
   padding-left: 90px;
@@ -307,7 +307,7 @@ img {
 }
 
 .mble-right-description {
-  border: 1px solid #F3F3F3 !important;
+  border: 1px solid #f3f3f3 !important;
   width: 90%;
   margin-right: auto;
   padding-left: 40px;
@@ -326,7 +326,6 @@ img {
   position: absolute;
   right: -60px;
   top: -100px;
-
 }
 
 .ellipsright-img {
@@ -348,7 +347,7 @@ img {
 }
 
 .banner-container {
-  background-image: url('../../public/images/banner-bg-grouped.png');
+  background-image: url("../../public/images/banner-bg-grouped.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -357,7 +356,7 @@ img {
 }
 
 .banner-btob {
-  background-image: url('../../public/images/banner-bg-btob.png');
+  background-image: url("../../public/images/banner-bg-btob.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -377,7 +376,7 @@ img {
 }
 
 .accordion-title {
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
 }
 
 .accordion-content {
@@ -386,7 +385,7 @@ img {
 }
 
 .border-full {
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
 }
 
 .border-bottom {
@@ -401,7 +400,7 @@ img {
   display: flex;
   margin: auto;
   overflow: hidden;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .auto_slider {
@@ -416,10 +415,38 @@ img {
 
 @keyframes rotation {
   0% {
-    transform: translateX(0)
+    transform: translateX(0);
   }
 
   100% {
-    transform: translateX(-100%)
+    transform: translateX(-100%);
   }
+}
+
+.sort-dropdown {
+  background-color: transparent !important;
+  border-radius: 16px;
+  color: black;
+  border: 1px solid #c6c6c6;
+}
+.sort-dropdown:hover,
+.sort-dropdown:active,
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: black !important;
+  border: 1px solid #c6c6c6 !important;
+}
+
+
+input:focus{
+border: none;
+outline:none;
+}
+
+.search-box{
+  border-left: 1px solid #C6C6C6;
+  padding-left: 10px;
 }
