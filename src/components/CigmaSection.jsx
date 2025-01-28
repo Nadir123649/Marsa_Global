@@ -20,7 +20,7 @@ const CigmaSection = () => {
                                     Healthy
                                 </span>
                             </h1>
-                            <div style={{backgroundImage: `url(${CigmaCard.src})` }} className='cigma-card flex flex-col justify-between'>
+                            <div style={{backgroundImage: `url(${CigmaCard.src})` }} className='cigma-card flex flex-col justify-between hover:scale-105 transition-all duration-300 ease-in-out'>
                                 <div className='flex items-center gap-2 bg-[#5C5C5C] rounded-[46px] max-w-[158px] w-full p-2'>
                                     <Image src={Curve} alt='curve' />
                                     <p className='text-white text-[16px] not-italic font-[500] mb-0'>

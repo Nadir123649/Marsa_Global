@@ -37,8 +37,8 @@ const PodcastSlider = () => {
                 <div className="header-container flex items-center justify-between pb-[32px]">
                     <h1 className="text-[#4A4A4A] text-[32px] font-bold">Recommended Podcasts</h1>
                     <div className="chevrons flex gap-4">
-                        <button className="chevron left" onClick={prevSlide}> <FaChevronLeft className="text-[16px]"/></button>
-                        <button className="chevron right " onClick={nextSlide}> <FaChevronRight className="text-[16px]" />
+                        <button className="chevron left" onClick={prevSlide}> <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/></button>
+                        <button className="chevron right " onClick={nextSlide}> <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />
                         </button>
                     </div>
                 </div>
