@@ -53,7 +53,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link href="/" className="text-white text-[18px] font-[400] not-italic leading-normal hover transition-all duration-300 ease-in-out">
-                                    Download Application
+                                    Download App
                                 </Link>
                             </li>
                         </ul>
