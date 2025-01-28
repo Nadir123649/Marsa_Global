@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import Image from 'next/image';
-import { FooterLogo } from '@/utils';
+import { FooterLogo, FooterLogoNew } from '@/utils';
 
 const Footer = () => {
     return (
@@ -15,10 +15,10 @@ const Footer = () => {
             <Container className='footer text-[#FFFFFF] bg-[linear-gradient(188.43deg,_#373737_7.17%,_#313131_94.35%)] rounded-[29px]'>
                 <div className='footer-top grid grid-cols-12'>
                     <div className='col-span-4'>
-                        <Image src={FooterLogo} />
+                        <Image src={FooterLogoNew} />
                     </div>
                     <div className='col-span-8'>
-                        <ul className="flex items-center justify-between gap-4 list-none padding-footer">
+                        <ul className="flex items-center justify-between gap-2 list-none padding-footer">
                             <li>
                                 <Link href="/" className="text-white text-[18px] font-[400] not-italic leading-normal hover transition-all duration-300 ease-in-out">
                                     Home
@@ -53,7 +53,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link href="/" className="text-white text-[18px] font-[400] not-italic leading-normal hover transition-all duration-300 ease-in-out">
-                                    Download Application
+                                    Download App
                                 </Link>
                             </li>
                         </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
                                     type="email"
                                     placeholder='Enter Email' />
                             </div>
-                            <button className='text-[#8BC34A] border-1 border-[#8BC34A] h-[50px] px-[24px] py-[16px] rounded-[16px] max-w-[130px] w-full hover:bg-[#8BC34A] transition-all duration-300 ease-in-out hover:text-white  hover:border-[#8BC34A] hover:border-[1px]'>
+                            <button className='flex justify-center items-center text-[#8BC34A] border-1 border-[#8BC34A] h-[50px] px-[24px] py-[16px] rounded-[16px] max-w-[130px] w-full hover:bg-[#8BC34A] transition-all duration-300 ease-in-out hover:text-white  hover:border-[#8BC34A] hover:border-[1px]'>
                                 Subscribe
                             </button>
                         </div>

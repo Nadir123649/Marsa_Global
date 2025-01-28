@@ -17,19 +17,18 @@ const FAQ = () => {
         { question: "How is mental health treated?", answer: "Mental health refers to a person's emotional, psychological, and social well-being." },
         { question: "How can I support someone with a mental health issue?", answer: "Mental health refers to a person's emotional, psychological, and social well-being." }
     ];
-
     return (
         <section>
             <Container className="p-0 ">
-                <h1 className="text-[#4A4A4A] text-[32px] font-semibold pb-[20px]">FAQ's</h1>
+                <h1 className="text-[#4A4A4A] text-[32px] font-bold pb-[40px] text-center">FAQ's</h1>
                 {questions.map((item, index) => (
                     <div key={index} className="py-2">
                         <div
-                            className={`accordion-title font-medium text-[20px] bg-[#fbfbfb] px-[20px] py-[16px] cursor-pointer d-flex justify-content-between align-items-center 
+                            className={`accordion-title font-medium text-[32px] bg-[#fbfbfb] px-[20px] py-[16px] cursor-pointer d-flex justify-content-between align-items-center 
                             ${openIndex === index ? 'rounded-t-[16px]' : 'rounded-[16px]'}`}
                             onClick={() => toggleAccordion(index)}
                         >
-                            <h2 className="mb-0">{item.question}</h2>
+                            <h2 className="mb-0 text-[20px] ">{item.question}</h2> 
                             <FaChevronDown
                                 className={`chevron-icon text-[#8BC34A] ${openIndex === index ? "rotate" : ""}`}
                             />
