@@ -5,8 +5,8 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 const MoodSection = () => {
     return (
-        <section className='py-[40px]'>
-            <Container className='py-[60px]'>
+        <section className='pt-[40px]'>
+            <Container className='pt-[60px]'>
                 <Row>
                     <Col lg={12} md={12} xs={12} className='flex flex-col relative description-part  gap-3    '>
                         <Image src={Moodimg} alt='mood' className='mood-img' />
