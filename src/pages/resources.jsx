@@ -9,12 +9,14 @@ const Resources = () => {
 
     return (
         <Layout showContactForm={true}>
-            <BannerLanding title="Resources"/>
-            <ResourcesHead/>
-            <RecommendedSlider/>
-            <PodcastSlider/>
-            <BlogsSlider/>
-            <FAQ/>
+            <BannerLanding
+                title="Resources"
+            />
+            <ResourcesHead />
+            <RecommendedSlider />
+            <PodcastSlider />
+            <BlogsSlider />
+            <FAQ />
         </Layout>
     );
 }
