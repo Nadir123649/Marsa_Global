@@ -64,8 +64,8 @@ const RecommendedSlider = () => {
         <section>
             <Image className="absolute right-0" src={ResourcesBg} /> 
             <Container >
-                <h1 className="text-[#4A4A4A] text-[32px] pb-[40px] font-bold">Recommended Reading</h1>
-                <div class="auto_slider_container flex gap-4 pb-[80px]">
+                <h1 className="text-[#4A4A4A] text-[32px] pb-[32px] font-bold">Recommended Reading</h1>
+                <div class="auto_slider_container flex gap-4 pb-[60px]">
                     <div class="auto_slider flex gap-4">
                         {slides.map((slide, index) => (
                             <div key={index} className="slide flex flex-col gap-[10px] min-w-[282px]">

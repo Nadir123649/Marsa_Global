@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const ResourcesHead = () => {
     return (
-        <section className="py-[40px]">
+        <section className="pt-[56px] pb-[32px]">
             <Container className="p-0">
                 <div className="flex justify-between items-center">
                     <div className="input-search relative min-w-[406px] rounded-[16px] border border-[#C6C6C6] ">
