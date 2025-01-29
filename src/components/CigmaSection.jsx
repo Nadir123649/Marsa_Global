@@ -10,15 +10,8 @@ const CigmaSection = () => {
                 <Row>
                     <Col lg={6} md={12} xs={12}>
                         <div>
-                            <h1 className='text-[#4F4F4F] text-[40px] not-italic font-[700] mb-[48px]'>
-                                How Cigma Helps You Stay&nbsp;
-                                <span className='text-[#8BC34A]'>
-                                    Connected
-                                </span>
-                                &nbsp;and&nbsp;
-                                <span className='text-[#8BC34A]'>
-                                    Healthy
-                                </span>
+                            <h1 className='max-w-[576px] text-[#4F4F4F] text-[40px] not-italic font-[700] mb-[48px]'>
+                                How Cigma Helps You Stay <span className='text-[#8BC34A]'>Connected</span> and <span className='text-[#8BC34A]'>Healthy</span>
                             </h1>
                             <div style={{backgroundImage: `url(${CigmaCard.src})` }} className='cigma-card flex flex-col justify-between hover:scale-105 transition-all duration-300 ease-in-out'>
                                 <div className='flex items-center gap-2 bg-[#5C5C5C] rounded-[46px] max-w-[158px] w-full p-2'>
