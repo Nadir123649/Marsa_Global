@@ -407,7 +407,7 @@ img {
 
 .chevron {
   background-color: transparent;
-  color:  #8BC34A;
+  /* color:  #8BC34A; */
   padding: 10px;
   cursor: pointer;
   border: none;
@@ -418,14 +418,28 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid  #8BC34A;
+  /* border: 1px solid  #8BC34A; */
 }
-.chevron:hover{
+/* .chevron:hover{
   background-color:#8BC34A;
   border: 1px solid transparent;
   color: white;
-}
+} */
 
+.chevron-disable{
+  border: 1px solid #D2D0D0;
+  color: #D2D0D0;
+  cursor: auto;
+}
+.chevron-active{
+  border: 1px solid #A3C4A0;
+  color: #A3C4A0;
+}
+.chevron-active:hover{
+  background-color: #A3C4A0 ;
+  border: 1px solid transparent;
+  color: white ;
+}
 .auto_slider_container {
   width: 100%;
   display: flex;

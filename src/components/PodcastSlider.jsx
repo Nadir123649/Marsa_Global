@@ -28,6 +28,9 @@ const PodcastSlider = () => {
 
     const slideOffset = -(currentIndex * 282); 
 
+    const isFirstSlide = currentIndex === 0;
+    const isLastSlide = currentIndex === slides.length - 4;
+
     return (
         <section className="pb-[60px]">
             <Image className="absolute right-0" src={ResourcesBg} />
@@ -35,8 +38,17 @@ const PodcastSlider = () => {
                 <div className="header-container flex items-center justify-between pb-[32px]">
                     <h1 className="text-[#4A4A4A] text-[32px] font-bold">Recommended Podcasts</h1>
                     <div className="chevrons flex gap-4">
-                        <button className="chevron left" onClick={prevSlide}> <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/></button>
-                        <button className="chevron right " onClick={nextSlide}> <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />
+                        <button 
+                            className={`chevron left ${isFirstSlide ? 'chevron-disable' : 'chevron-active'}`} 
+                            onClick={prevSlide} 
+                            disabled={isFirstSlide}>
+                            <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/>
+                        </button>
+                        <button 
+                            className={`chevron right ${isLastSlide ? 'chevron-disable' : 'chevron-active'}`} 
+                            onClick={nextSlide} 
+                            disabled={isLastSlide}>
+                            <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />
                         </button>
                     </div>
                 </div>
