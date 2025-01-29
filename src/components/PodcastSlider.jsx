@@ -1,21 +1,19 @@
-import React, { useState } from "react";
-import { Container } from 'react-bootstrap';
+import { PodFour, PodOne, PodThree, PodTwo, ResourcesBg } from "@/utils";
 import Image from 'next/image';
-import Link from "next/link";
-import { BlogFour, BlogOne, BlogThree, BlogTwo, ConnectFriends, ConnectNew, ConnectNow, PhoneFriend, PodFour, PodOne, PodThree, PodTwo, ResourcesBg } from "@/utils";
-import { FaChevronRight } from "react-icons/fa";
-import { FaChevronLeft } from "react-icons/fa";
+import { useState } from "react";
+import { Container } from 'react-bootstrap';
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const PodcastSlider = () => {
     const slides = [
-        { image: PodOne},
-        { image: PodTwo },
-        { image: PodThree },
-        { image: PodFour},
-        { image: PodOne },
-        { image: PodTwo},
-        { image: PodThree},
-        { image: PodFour},
+        {title: "Connect with friends", image: PodOne},
+        {title: "Connect with friends", image: PodTwo },
+        {title: "Connect with friends", image: PodThree },
+        {title: "Connect with friends", image: PodFour},
+        {title: "Connect with friends", image: PodOne },
+        {title: "Connect with friends", image: PodTwo},
+        {title: "Connect with friends", image: PodThree},
+        {title: "Connect with friends", image: PodFour},
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,6 +28,9 @@ const PodcastSlider = () => {
 
     const slideOffset = -(currentIndex * 282); 
 
+    const isFirstSlide = currentIndex === 0;
+    const isLastSlide = currentIndex === slides.length - 4;
+
     return (
         <section className="pb-[60px]">
             <Image className="absolute right-0" src={ResourcesBg} />
@@ -37,8 +38,17 @@ const PodcastSlider = () => {
                 <div className="header-container flex items-center justify-between pb-[32px]">
                     <h1 className="text-[#4A4A4A] text-[32px] font-bold">Recommended Podcasts</h1>
                     <div className="chevrons flex gap-4">
-                        <button className="chevron left" onClick={prevSlide}> <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/></button>
-                        <button className="chevron right " onClick={nextSlide}> <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />
+                        <button 
+                            className={`chevron left ${isFirstSlide ? 'chevron-disable' : 'chevron-active'}`} 
+                            onClick={prevSlide} 
+                            disabled={isFirstSlide}>
+                            <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/>
+                        </button>
+                        <button 
+                            className={`chevron right ${isLastSlide ? 'chevron-disable' : 'chevron-active'}`} 
+                            onClick={nextSlide} 
+                            disabled={isLastSlide}>
+                            <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />
                         </button>
                     </div>
                 </div>
@@ -47,6 +57,7 @@ const PodcastSlider = () => {
                         {slides.map((slide, index) => (
                             <div key={index} className="slide flex flex-col gap-[10px] min-w-[282px]">
                                 <Image src={slide.image} alt={slide.title} />
+                                <h2 className="text-[#4F4F4F] text-[20px] font-semibold">{slide.title}</h2>
                             </div>
                         ))}
                     </div>

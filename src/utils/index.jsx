@@ -26,10 +26,12 @@ export { default as SliderThree} from "../../public/images/slider-three.png";
 export { default as SliderFour} from "../../public/images/slider-four.png";
 export { default as SliderFive} from "../../public/images/slider-five.png";
 export { default as SliderSix} from "../../public/images/slider-six.png";
+
 export { default as MobileSideLeft} from "../../public/images/mble-side-left.png";
 export { default as MobileEllipsLeft} from "../../public/images/mble-ellips.png";
 export { default as MobileEllipsRight} from "../../public/images/mble-ellips-right.png";
 export { default as PeerMobile} from "../../public/images/peer-mble.png";
+
 export { default as ModelMobile} from "../../public/images/mode-mbl.png";
 export { default as JournalingMobile} from "../../public/images/journaling-mbl.png";
 export { default as LibraryMobile} from "../../public/images/library-mbl.png";
@@ -43,10 +45,10 @@ export { default as BlogOne} from "../../public/images/blog-one.png";
 export { default as BlogTwo} from "../../public/images/blog-two.png";
 export { default as BlogThree} from "../../public/images/blog-three.png";
 export { default as BlogFour} from "../../public/images/blog-four.png";
-export { default as PodOne} from "../../public/images/pod-one.png";
-export { default as PodTwo} from "../../public/images/pod-two.png";
-export { default as PodThree} from "../../public/images/pod-three.png";
-export { default as PodFour} from "../../public/images/pod-four.png";
+export { default as PodOne} from "../../public/images/pod-one.svg";
+export { default as PodTwo} from "../../public/images/pod-two.svg";
+export { default as PodThree} from "../../public/images/pod-three.svg";
+export { default as PodFour} from "../../public/images/pod-four.svg";
 export { default as SearchIcon} from "../../public/images/search-icon.svg";
 export { default as ResourcesBg} from "../../public/images/resourcesbg-one.png";
 export { default as ResourcesBgTwo} from "../../public/images/resourcesbg-two.png";
@@ -56,3 +58,10 @@ export { default as BannerYourself} from "../../public/images/banner-bg-btob.png
 export { default as CareYourself} from "../../public/images/banner-bg-grouped.png";
 export { default as UserBox} from "../../public/images/bg-user-box.svg";
 export { default as FooterLogoNew} from "../../public/images/footer-logo.svg";
+
+export { default as PlatformOne} from "../../public/images/ai-powered.svg";
+export { default as PlatformTwo} from "../../public/images/messaging.svg";
+export { default as PlatformThree} from "../../public/images/mood-tracking.svg";
+export { default as PlatformFour} from "../../public/images/journaling.svg";
+export { default as PlatformFive} from "../../public/images/resource-library.svg";
+
