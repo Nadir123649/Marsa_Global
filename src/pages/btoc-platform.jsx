@@ -1,4 +1,5 @@
 import BannerLanding from '@/components/BannerLanding';
+import HelpsCard from '@/components/HelpsCard';
 import Layout from '@/components/layout';
 import MobileLeft from '@/components/MobileLeft';
 import MobileRight from '@/components/MobileRight';
@@ -9,11 +10,15 @@ const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
       <BannerLanding style={BannerYourself} title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end" />
-      <section className='pt-[70px] overflow-hidden'>
-        <div className='flex flex-col gap-[20px] max-w-[575px] mx-auto text-center' >
-          <h1 className='text-[#4F4F4F] text-[40px] font-bold'>How Cigma Helps You Stay <span className='text-[#8BC34A]'>Connected</span>  and <span className='text-[#8BC34A]'>Healthy</span></h1>
-          <p className='text-[#4F4F4F]  leading-[30px] text-[22px]'>Our features are built around fostering better mental health for all.</p>
-        </div>
+      <section className='pt-[60px] overflow-hidden '>
+        <HelpsCard
+          className="btoc-card"
+          title="Why settle for"
+          spantitle=" “just okay”"
+          moretitle="when your mind can thrive?"
+          description="Not every struggle is visible...but every struggle matters. At CIGMA, we understand that 
+          well-being is personal, and sometimes, the biggest challenges are the ones we carry within. CIGMA is here to walk alongside you."
+        />
 
         <MobileLeft
           mobileImg={MobileSideLeft}

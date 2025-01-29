@@ -459,9 +459,6 @@ img {
   min-width: 282px; 
 }
 
-
-
-
 .sort-dropdown {
   background-color: transparent !important;
   color: #a2a2a2;
@@ -478,6 +475,12 @@ input:focus {
 .search-box {
   border-left: 1px solid #c6c6c6;
   padding-left: 10px;
+}
+.btoc-card{
+  padding-bottom: 80px !important;
+}
+.btob-card{
+  padding-top: 60px !important;
 }
 @media (max-width: 1400px) {
   .mood-img{
