@@ -10,6 +10,11 @@ const BtowoCPlatform = () => {
     <Layout showContactForm={true}>
       <BannerLanding style={BannerYourself} title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end" />
       <section className='pt-[70px] overflow-hidden'>
+        <div className='flex flex-col gap-[20px] max-w-[575px] mx-auto text-center' >
+          <h1 className='text-[#4F4F4F] text-[40px] font-bold'>How Cigma Helps You Stay <span className='text-[#8BC34A]'>Connected</span>  and <span className='text-[#8BC34A]'>Healthy</span></h1>
+          <p className='text-[#4F4F4F]  leading-[30px] text-[22px]'>Our features are built around fostering better mental health for all.</p>
+        </div>
+
         <MobileLeft
           mobileImg={MobileSideLeft}
           mobileTitle="AI-powered"

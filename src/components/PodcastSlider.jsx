@@ -1,21 +1,19 @@
-import React, { useState } from "react";
-import { Container } from 'react-bootstrap';
+import { PodFour, PodOne, PodThree, PodTwo, ResourcesBg } from "@/utils";
 import Image from 'next/image';
-import Link from "next/link";
-import { BlogFour, BlogOne, BlogThree, BlogTwo, ConnectFriends, ConnectNew, ConnectNow, PhoneFriend, PodFour, PodOne, PodThree, PodTwo, ResourcesBg } from "@/utils";
-import { FaChevronRight } from "react-icons/fa";
-import { FaChevronLeft } from "react-icons/fa";
+import { useState } from "react";
+import { Container } from 'react-bootstrap';
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const PodcastSlider = () => {
     const slides = [
-        { image: PodOne},
-        { image: PodTwo },
-        { image: PodThree },
-        { image: PodFour},
-        { image: PodOne },
-        { image: PodTwo},
-        { image: PodThree},
-        { image: PodFour},
+        {title: "Connect with friends", image: PodOne},
+        {title: "Connect with friends", image: PodTwo },
+        {title: "Connect with friends", image: PodThree },
+        {title: "Connect with friends", image: PodFour},
+        {title: "Connect with friends", image: PodOne },
+        {title: "Connect with friends", image: PodTwo},
+        {title: "Connect with friends", image: PodThree},
+        {title: "Connect with friends", image: PodFour},
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,6 +45,7 @@ const PodcastSlider = () => {
                         {slides.map((slide, index) => (
                             <div key={index} className="slide flex flex-col gap-[10px] min-w-[282px]">
                                 <Image src={slide.image} alt={slide.title} />
+                                <h2 className="text-[#4F4F4F] text-[20px] font-semibold">{slide.title}</h2>
                             </div>
                         ))}
                     </div>
