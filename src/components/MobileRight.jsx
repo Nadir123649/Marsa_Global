@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const MobileRight = ({ mobileTitle, mobleTitlespan, mobiledescription, mobileImg }) => {
     return (
         <section className='py-[80px] relative'>
-            <Image src={MobileEllipsRight} alt='mood' className='ellipsright-img' />
+            <Image src={MobileEllipsRight} alt='mood' className='ellipsright-img ' />
             <Container className='py-[60px]'>
                 <Row >
                     <Col lg={12} md={12} xs={12} className='flex flex-col relative  gap-3'>
@@ -18,7 +18,7 @@ const MobileRight = ({ mobileTitle, mobleTitlespan, mobiledescription, mobileImg
                                 {mobiledescription}
                             </p>
                         </div>
-                        <Image src={mobileImg} alt='mood' className='mobileright-img' />
+                        <Image src={mobileImg} alt='mood' className='mobileright-img hover:scale-105 transition-all ease-in-3s' />
                        
 
                     </Col>

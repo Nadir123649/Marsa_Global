@@ -484,9 +484,23 @@ input:focus {
 .btob-card{
   padding-top: 60px !important;
 }
+.mood-description{
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+.card-text{
+  line-height: 35px  !important;
+}
 @media (max-width: 1400px) {
   .mood-img{
-   top: -20px; 
+   top: -100px; 
+  }
+  .card-text{
+    line-height: 25px  !important;
+  }
+  .mood-description{
+    padding-top: 26px !important;
+    padding-bottom: 26px !important;
   }
 }
 
