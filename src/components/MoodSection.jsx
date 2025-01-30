@@ -14,7 +14,7 @@ const MoodSection = () => {
                             <h1 className='section-title text-[#1E1E25] font-bold '>Your Journey with<span className='text-[#8BC34A]'> Mood Tracking & Insights</span></h1>
                             <h2 className='text-[#8BC34A] text-[22px] font-normal'>(For Individuals (B2C)</h2>
                             <p className='card-text text-[#4F4F4F] text-[20px] '>Monitor your emotions, explore personalized resources, and stay connected to a supportive community for a fulfilling wellness journey.</p>
-                            <h2 className='text-[#8BC34A] text-[20px] font-normal'>What You’ll Get:</h2>
+                            <h2 className='text-[#8BC34A] text-[20px] font-semibold'>What You’ll Get:</h2>
                             <ul className='mood-list card-text text-[#4F4F4F] text-[16px] '>
                                 <li>Mood Tracking: Easily log your emotions and visualize your mental health progress.</li>
                                 <li>Guided Resources: Access articles, videos, and exercises tailored to your needs.</li>
