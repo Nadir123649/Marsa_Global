@@ -9,7 +9,7 @@ const CorporateRight = ({ title, subtitle, description, boldDescription, simpleD
             <Image src={RightGroup} alt='mood' className='absolute right-0 top-0 z-10' />
             <Container>
                 <div className='feature-card  min-h-[485px] mt-[24px] flex flex-col justify-center'>
-                    <Row className='justify-start items-center pl-[60px] pr-[20px]'>
+                    <Row className='feature-row justify-start items-center  pr-[20px]'>
                         <Col lg={8} md={12} xs={12}>
                             <h1 className='text-[#1E1E25] text-[32px] not-italic font-[700] leading-[61px] mb-[24px]'>
                                 {title}&nbsp;<span className='text-[#8BC34A]'>{subtitle}</span>
