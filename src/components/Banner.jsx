@@ -9,13 +9,13 @@ const Banner = () => {
             <Container style={{
                 backgroundImage: `url(${HeroBG.src})`}} className='p-0 banner-image min-h-[65vh]  md:min-h-[85vh] rounded-[0px] md:rounded-[29px] flex items-center'>
                 <div className='banner-content pl-[20px] md:pl-[56px]'>
-                    <h1 className='text-white text-[40px] md:text-[64px] not-italic font-[700] leading-[50px] md:leading-[88px] max-w-[571px] w-full mb-[16px]'>
+                    <h1 className='connect-title text-white text-[40px] md:text-[64px] not-italic font-[700] leading-[50px] md:leading-[88px] max-w-[571px] w-full mb-[16px]'>
                         Cigma: Connect, Thrive, Be Well.
                     </h1>
-                    <p className='text-white text-[24px] font-[400] leading-[51px] not-italic'>
+                    <p className='text-white text-[24px] font-[400] leading-[51px] not-italic freely-text'>
                         Chat freely. Prioritize your mental health.
                     </p>
-                    <div className='flex flex-col md:flex-row items-center gap-[16px] mt-[40px]'>
+                    <div className='flex flex-col md:flex-row items-start md:items-center gap-[16px] mt-[40px]'>
                         <div style={{backgroundImage: `url(${UserBox.src})` }} className='flex items-center gap-[10px] user-box justify-center'>
                             <Image src={ImagesBanner} alt="user-images" />
                             <div className='flex flex-col items-start gap-0'>
