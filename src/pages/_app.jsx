@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../styles/index.css';
+import { SkipArrow } from '@/utils';
+import Image from 'next/image';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
@@ -32,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <>
             {!videoWatched ? (
                 <div className='h-[100vh] relative'>
-                    <video autoPlay width="100%" height="100vh" onEnded={handleVideoEnd} controls>
+                    <video autoPlay  width="100%" height="100vh" onEnded={handleVideoEnd} className='intro-video' controls>
                     <source src="/images/video-intro.mp4"  type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -40,9 +42,11 @@ function MyApp({ Component, pageProps }) {
                     <button 
                     className='video-btn'
                         onClick={() => setVideoWatched(true)} 
-                        style={{ display: 'block', margin: '20px auto' }}
+                        
                     >
-                       Skip Introduction
+                        <Image src={SkipArrow}/> 
+                        <p className='mb-0'>Skip Introduction</p>
+                      {/* <Image src={SkipArrow}></Image> Skip Introduction */}
                     </button>
                 </div>
             ) : (

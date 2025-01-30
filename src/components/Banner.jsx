@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <section className='banner mt-[115px]'>
             <Container style={{
-                backgroundImage: `url(${HeroBG.src})`}} className='p-0 banner-image min-h-[65vh]  md:min-h-[85vh] rounded-[29px] flex items-center'>
+                backgroundImage: `url(${HeroBG.src})`}} className='p-0 banner-image min-h-[65vh]  md:min-h-[85vh] rounded-[0px] md:rounded-[29px] flex items-center'>
                 <div className='banner-content pl-[20px] md:pl-[56px]'>
                     <h1 className='text-white text-[40px] md:text-[64px] not-italic font-[700] leading-[50px] md:leading-[88px] max-w-[571px] w-full mb-[16px]'>
                         Cigma: Connect, Thrive, Be Well.
