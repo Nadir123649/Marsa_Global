@@ -6,7 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const EmpowerRight = () => {
     return (
         <section className='py-[100px] relative'>
-            <Image src={RightGroup} alt='mood' className='absolute right-0 top-0 z-10' />
+            <Image src={RightGroup} alt='mood' className='laptop-img absolute right-0 top-0 z-10' />
             <Container>
                 <div className='feature-card min-h-[488px] mt-[24px] flex flex-col justify-center'>
                     <Row className='justify-start items-center pl-[60px] pr-[20px]'>

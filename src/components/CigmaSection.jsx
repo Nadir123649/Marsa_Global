@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const CigmaSection = () => {
     return (
-        <section>
+        <section className='px-[20px]'>
             <Container className='cigma-container feature-card'>
                 <Row>
                     <Col lg={6} md={12} xs={12}>
@@ -27,7 +27,7 @@ const CigmaSection = () => {
                         </div>
                     </Col>
                     <Col lg={6} md={12} xs={12}>
-                        <div className='pl-[60px]'>
+                        <div className='md:pl-[60px] fetaure-div'>
                             <p className='text-[#4F4F4F] text-[22px] not-italic font-[300] leading-[38px] pt-[10px]'>
                                 Our features are built around fostering better mental health for all.
                             </p>
