@@ -14,15 +14,15 @@ const EmpowerRight = () => {
                             <h1 className='text-[#1E1E25] text-[26px] md:text-[32px] not-italic font-[700] leading-[55px] mb-[0px]'>
                                 Empower Teams with &nbsp;<span className='text-[#8BC34A]'>Wellness Analytics</span>
                             </h1>
-                            <p className='text-[#8BC34A] text-[22px] font-[400] leading-normal not-italic mb-[24px]'>
+                            <p className='text-[#8BC34A] text-[22px] font-[400] leading-normal not-italic mb-[18px]'>
                                 For Businesses (B2B)
                             </p>
 
-                            <p className='text-[#4F4F4F] text-[20px] font-[400] leading-[35px] not-italic mb-[28px]'>
+                            <p className='text-[#4F4F4F] text-[20px] font-[400] leading-[35px] not-italic mb-[24px]'>
                                 Track mental health trends, access actionable insights, and foster a positive workplace culture with secure, data-driven tools.
                             </p>
 
-                            <h2 className='text-[#8BC34A] text-[20px] leading-[35px] font-[600] not-italic mb-[16px]'>
+                            <h2 className='text-[#8BC34A] text-[20px] leading-[35px] font-[600] not-italic mb-[12px]'>
                                 What You’ll Get:
                             </h2>
                             <ul className='info-listed flex flex-col gap-[8px] list-disc'>

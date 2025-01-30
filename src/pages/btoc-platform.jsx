@@ -3,7 +3,7 @@ import HelpsCard from '@/components/HelpsCard';
 import Layout from '@/components/layout';
 import MobileLeft from '@/components/MobileLeft';
 import MobileRight from '@/components/MobileRight';
-import { BannerYourself, JournalingMobile, LibraryMobile, MobileSideLeft, ModelMobile, PeerMobile, PlatformFive, PlatformFour, PlatformOne, PlatformThree, PlatformTwo } from '@/utils';
+import { BannerYourself, JournalingMobile, MobileRightOne, LibraryMobile, MobileSideLeft, ModelMobile, PeerMobile, PlatformFive, PlatformFour, PlatformOne, PlatformThree, PlatformTwo } from '@/utils';
 import React from 'react';
 
 const BtowoCPlatform = () => {
@@ -26,6 +26,8 @@ const BtowoCPlatform = () => {
           mobleTitlespan="Chatbot"
           mobiledescription="Get instant support and information from our CIGMA AI chatbot, available 24/7 to answer your queries and guide you on your mental health journey. By continuously learning and adapting to user interactions, this state-of-the-art model ensures that users receive compassionate, relevant, and actionable advice on their well-being journey."
         />
+          
+        
         <MobileRight
           mobileImg={PlatformTwo}
           mobileTitle="Peer-to-Peer"

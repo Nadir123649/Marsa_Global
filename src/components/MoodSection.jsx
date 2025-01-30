@@ -1,4 +1,4 @@
-import { Applestore, Appstore, ImagesBanner, Moodimg } from '@/utils';
+import { Applestore, Appstore, HomeMobile, ImagesBanner, Moodimg } from '@/utils';
 import Image from 'next/image';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';

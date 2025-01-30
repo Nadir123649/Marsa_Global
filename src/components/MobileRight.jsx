@@ -17,7 +17,7 @@ const MobileRight = ({ mobileTitle, mobleTitlespan, mobiledescription, mobileImg
                                 {mobiledescription}
                             </p>
                         </div>
-                        <Image src={mobileImg} alt='mood' className='mobileright-img hover:scale-105 transition-all ease-in-3s' />
+                        <Image src={mobileImg} alt='mood' className='mobileright-img hover:scale-105 transition-all ease-in-3s' width={358} height={626}/>
                     </Col>
                 </Row>
             </Container>
