@@ -9,8 +9,7 @@ const MobileRight = ({ mobileTitle, mobleTitlespan, mobiledescription, mobileImg
             <Container className='py-[60px]'>
                 <Row >
                     <Col lg={12} md={12} xs={12} className='flex flex-col relative  gap-3'>
-                       
-                        <div className='mble-right-description flex flex-col py-[60px] justify-center gap-3 rounded-[18px] bg-[rgba(217,_217,_217,_0.10)] [box-shadow:26.233px_-26.233px_26.233px_0px_rgba(165,_165,_165,_0.10)_inset,_-26.233px_26.233px_26.233px_0px_rgba(255,_255,_255,_0.10)_inset] backdrop-filter backdrop-blur-[26.233333587646484px]'>
+                        <div className='mble-right-description  max-h-[324px] min-h-[324px] flex flex-col py-[60px] justify-center gap-3 rounded-[18px] bg-[rgba(217,_217,_217,_0.10)] [box-shadow:26.233px_-26.233px_26.233px_0px_rgba(165,_165,_165,_0.10)_inset,_-26.233px_26.233px_26.233px_0px_rgba(255,_255,_255,_0.10)_inset] backdrop-filter backdrop-blur-[26.233333587646484px]'>
                             <h1 className='text-[#1E1E25] text-[32px] font-bold'>
                                 {mobileTitle} <span className='text-[#8BC34A]'>{mobleTitlespan}</span>
                             </h1>
@@ -19,8 +18,6 @@ const MobileRight = ({ mobileTitle, mobleTitlespan, mobiledescription, mobileImg
                             </p>
                         </div>
                         <Image src={mobileImg} alt='mood' className='mobileright-img hover:scale-105 transition-all ease-in-3s' />
-                       
-
                     </Col>
                 </Row>
             </Container>
