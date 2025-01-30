@@ -61,4 +61,4 @@ export { default as PlatformTwo} from "../../public/images/plat-two.png";
 export { default as PlatformThree} from "../../public/images/plat-three.png";
 export { default as PlatformFour} from "../../public/images/plat-four.png";
 export { default as PlatformFive} from "../../public/images/plat-five.png";
-export { default as MobileRightOne} from "../../public/images/mobile-right.png";
+export { default as HomeMobile} from "../../public/images/mood-tracking-img.png";
