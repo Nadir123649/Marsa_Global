@@ -101,12 +101,12 @@ const Header = () => {
                         </li>
                         <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A]'>
                             <Link href="/btoc-platform" className='text-[#373737] text-[16px]'>
-                                B2C Platform
+                               For Users
                             </Link>
                         </li>
                         <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A]'>
                             <Link href="/btob-platform" className='text-[#373737] text-[16px]'>
-                                B2B Platform
+                            For Businesses
                             </Link>
                         </li>
                         <li className='text-[#373737] text-[16px] not-italic font-[400] leading-normal hover:text-[#8BC34A]'>

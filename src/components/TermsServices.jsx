@@ -35,7 +35,11 @@ const TermsServices = () => {
                 {/* 4- Privacy and Safeguards*/}
                 <div className='custom-border py-[32px]'>
                     <h2 className='font-bold text-[24px] text-[#8BC34A] mb-[24px]'>4- Privacy and Safeguards</h2>
-                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>Your use of the CIGMA App is also governed by our Privacy Policy, which explains how we collect, use, and protect your personal data. The App includes safeguards to ensure the security of sensitive health data and complies with relevant data protection laws (e.g., GDPR, HIPAA). By using the App, you consent to our data practices as described in the Privacy Policy.                    </p>
+                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'>Our use of the CIGMA App is also governed by our Privacy Policy, which explains how we collect, use, and protect your personal data. The App includes safeguards to ensure the security of sensitive health data and complies with relevant data protection laws (e.g., GDPR, HIPAA), specifically as:</p>
+                    <p className='text-[#4E4E4E] text-[24px] leading-[37px] py-[30px]'><span className='font-bold '>A.</span>  PHI, which includes information about users health status, medical history, and healthcare services.</p>
+                    <p className='text-[#4E4E4E] text-[24px] leading-[37px]'><span className='font-bold'>B.</span>  Personal data, including basic identifying information such as name, address, and phone number
+                    By using the App, you consent to our data practices as described in the Privacy Policy.</p>
+
                 </div>
                 {/* 5- Intellectual Property*/}
                 <div className='custom-border py-[32px]  '>

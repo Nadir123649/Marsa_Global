@@ -5,8 +5,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const CorporateRight = ({ title, subtitle, description, boldDescription, simpleDescription }) => {
     return (
-        <section className='py-[100px] relative'>
-            <Image src={RightGroup} alt='mood' className='absolute right-0 top-0 z-10' />
+        <section className='py-[10px] md:py-[100px] relative'>
+            <Image src={RightGroup} alt='mood' className='corporate-laptop-right absolute right-0 top-0 z-10' />
             <Container>
                 <div className='feature-card  min-h-[485px] mt-[24px] flex flex-col justify-center'>
                     <Row className='feature-row justify-start items-center  pr-[20px]'>
