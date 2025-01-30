@@ -5,11 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const CorporateLeft = ({ title, subtitle, description, boldDescription, simpleDescription }) => {
     return (
-        <section className='py-[10px] md:py-[100px] relative'>
+        <section className='py-[10px] md:py-[100px] relative '>
             <Image src={LeftGroup} alt='mood' className='hidden md:block corporate-laptop-left absolute left-0 top-0 z-10' />
             <Image src={FullLaptop} alt='mood' className=' block md:hidden' />
-
-
             <Container>
                 <div className='feature-card min-h-[485px] mt-[24px] flex flex-col justify-center'>
                     <Row className='justify-end items-center md:pl-[40px] pr-[20px]'>
