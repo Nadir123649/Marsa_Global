@@ -516,4 +516,19 @@ input:focus {
   .slide {
     min-width: 100%; 
   }
+  .text-seprator{
+    display: none;
+  }
+  .footer{
+    padding: 33px 20px 23px !important;
+  }
+  .footer-logo{
+    max-width: 220px !important;
+  }
+  .contact-form{
+    padding: 20px 20px  !important;
+  }
+  .cardfeature{
+    margin-bottom: 20px;
+  }
 }
