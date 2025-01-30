@@ -491,6 +491,10 @@ input:focus {
 .card-text{
   line-height: 35px  !important;
 }
+
+.feature-row{
+  padding-left: 60px;
+}
 @media (max-width: 1400px) {
   .mood-img{
    top: -100px; 
@@ -501,6 +505,9 @@ input:focus {
   .mood-description{
     padding-top: 26px !important;
     padding-bottom: 26px !important;
+  }
+  .feature-row{
+    padding-left: 40px;
   }
 }
 
