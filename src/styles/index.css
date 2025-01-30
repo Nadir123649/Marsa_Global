@@ -197,7 +197,7 @@ img {
 
 .banner-image {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -519,8 +519,8 @@ input:focus {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20;
-  right: 20;
+  top: 20px !important;
+  right: 20px !important;
   z-index: 100 !important;
   border-radius: 36px;
   color: white;
@@ -652,5 +652,14 @@ input:focus {
   }
   .intro-video{
     height: 100vh !important;
+  }
+  .banner-image {
+    background-position: start !important;
+  }
+  .freely-text{
+    max-width: 259px !important;
+  }
+  .connect-title{
+    max-width: 180px !important;
   }
 }
