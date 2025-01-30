@@ -1,9 +1,9 @@
 import { LogoHeader } from '@/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
-import { FaBars, FaTimes } from 'react-icons/fa'  // Importing hamburger and close icons
+import { FaBars, FaTimes } from 'react-icons/fa' 
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -12,9 +12,23 @@ const Header = () => {
         setMenuOpen(!menuOpen)
     }
 
+    useEffect(() => {
+        if (menuOpen) {
+            document.body.style.overflow = 'hidden'; 
+        } else {
+            document.body.style.overflow = 'auto';   
+        }
+
+     
+        return () => {
+            document.body.style.overflow = 'auto';
+        }
+    }, [menuOpen])
+
+
     return (
         <header className='fixed inset-0 bg-[#FFF] z-50 h-[100px] flex flex-col justify-center items-center'>
-            <Container className='flex justify-between items-center p-0'>
+            <Container className='flex justify-between items-center py-0 px-[20px]'>
                 <Link href="/">
                     <Image
                         src={LogoHeader}
