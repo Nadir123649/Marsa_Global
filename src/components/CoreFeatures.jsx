@@ -7,9 +7,9 @@ const CoreFeatures = () => {
     return (
         <section className='my-[60px]'>
             <Container className='p-0'>
-                <Row >
+                <Row className='p-0 m-0 w-[100%]' >
                     {featureData.map((features) => (
-                        <Col key={features.id} lg={4} md={6} sm={10} xs={10}
+                        <Col key={features.id} lg={4} md={6} sm={12} xs={12}
                             className={`cardfeature ${features.id === 3 ? 'benefit-card' : ''}`}
                         >
                             <FeatureCard features={features} />
