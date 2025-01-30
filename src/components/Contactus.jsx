@@ -12,7 +12,7 @@ const Contactus = () => {
                     <Row>
                         <Col lg={6} md={12} xs={12}>
                             <div className="contact-form-content mt-[20px] md:mt-[30px]">
-                                <h1 className='text-[40px] text-[#2D2D2D] font-bold not-italic capitalize mb-[20px]'>Let’s Reach New <span className='text-[#8BC34A]'>Heights</span>!</h1>
+                                <h1 className='text-[28px] md:text-[40px] text-[#2D2D2D] font-bold not-italic capitalize mb-[20px]'>Let’s Reach New <span className='text-[#8BC34A]'>Heights</span>!</h1>
                                 <p className='text-[24px] text-[#4C4C4C] not-italic font-normal max-w-full md:max-w-[532px] w-full leading-[34px] '>
                                     Book a call today and see
                                     where we can take you.

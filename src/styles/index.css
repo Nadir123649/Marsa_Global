@@ -601,6 +601,12 @@ input:focus {
     margin-left: 0;
   }
   .feature-card{
-    padding: 10px 0px!important;
+    padding: 20px!important;
+  }
+  .connect-card{
+    padding: 20px  !important;
+  }
+  .section-title{
+    font-size: 26px;
   }
 }

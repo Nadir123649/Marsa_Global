@@ -5,7 +5,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 const MoodSection = () => {
     return (
-        <section className='pt-[40px]'>
+        <section className='md:pt-[40px]'>
             <Container className='pt-[0px] md:pt-[60px]'>
                 <Row>
                     <Col lg={12} md={12} xs={12} className='flex flex-col relative description-part  gap-3    '>
@@ -23,7 +23,7 @@ const MoodSection = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col lg={4} md={4} xs={12} className='btns-col flex flex-row justify-center pt-[60px]'>
+                    <Col lg={4} md={4} xs={12} className='btns-col flex flex-row justify-center pt-[20px] md:pt-[60px]'>
                         <Image src={Appstore} alt='mood' className='apple-img' />
                         <Image src={Applestore} alt='mood' className='play-img' />
                     </Col>
