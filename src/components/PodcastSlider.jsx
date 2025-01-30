@@ -36,7 +36,7 @@ const PodcastSlider = () => {
             <Image className="absolute right-0" src={ResourcesBg} />
             <Container>
                 <div className="header-container flex items-center justify-between pb-[32px]">
-                    <h1 className="text-[#4A4A4A] text-[32px] font-bold">Recommended Podcasts</h1>
+                    <h1 className="text-[#4A4A4A] text-[20px] md:text-[32px] font-bold">Recommended Podcasts</h1>
                     <div className="chevrons flex gap-4">
                         <button 
                             className={`chevron left ${isFirstSlide ? 'chevron-disable' : 'chevron-active'}`} 

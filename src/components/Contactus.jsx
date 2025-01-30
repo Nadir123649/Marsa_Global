@@ -78,7 +78,7 @@ const Contactus = () => {
                                     </Col>
                                     <Col lg={6} md={12} xs={12}>
                                         <Form.Group className='flex flex-col gap-1'>
-                                            <Form.Label htmlFor='full-name' className='text-[#645555] text-[16px] md:text-[18px] font-medium not-italic'>Phone<sup className='text-[#FF9494]'>*</sup></Form.Label>
+                                            <Form.Label htmlFor='full-name' className='text-[#645555] text-[16px] md:text-[18px] font-medium not-italic'>Phone<span className='text-[#FF9494]'>*</span> </Form.Label>
                                             <input
                                                 id='full-name'
                                                 type="phone"
