@@ -543,6 +543,7 @@ input:focus {
   .mood-description {
     padding-left: 10px !important;
   }
+
   .description-part {
     padding-left: 10px !important;
   }
@@ -595,5 +596,8 @@ input:focus {
   .corporate-laptop-left{
     position: static !important;
   }
- 
+  .mood-description{
+    width: 100%;
+    margin-left: 0;
+  }
 }

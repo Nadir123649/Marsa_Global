@@ -9,7 +9,7 @@ const EmpowerRight = () => {
             <Image src={RightGroup} alt='mood' className='laptop-img absolute right-0 top-0 z-10' />
             <Container>
                 <div className='feature-card min-h-[488px] mt-[24px] flex flex-col justify-center'>
-                    <Row className='justify-start items-center pl-[60px] pr-[20px]'>
+                    <Row className='justify-start items-center pl-[20px] md:pl-[60px] pr-[20px]'>
                         <Col lg={8} md={12} xs={12}>
                             <h1 className='text-[#1E1E25] text-[32px] not-italic font-[700] leading-[55px] mb-[0px]'>
                                 Empower Teams with &nbsp;<span className='text-[#8BC34A]'>Wellness Analytics</span>
