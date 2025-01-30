@@ -36,35 +36,35 @@ const CigmaSection = () => {
                                     <Image src={ImageLineOne} alt="line-one" className='absolute top-[62px] left-[-26px]' />
                                     <Image src={ImageLineTwo} alt="line-two" className='absolute bottom-[62px] left-[80px]' />
                                     <li className='flex items-center gap-[16px] flex-row'>
-                                        <div className='mr-[23px] bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
+                                        <div className='circle bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
                                             <span className='bg-[#8EBA5B] w-[69px] h-[69px] rounded-[50%] flex justify-center items-center text-[30px] text-white font-[700] leading-normal not-italic'>
                                                 01
                                             </span>
                                         </div>
                                         <Image src={MobileOne} alt="mobile" />
-                                        <span className='text-[#464646] text-[24px] not-italic font-[500] leading-normal'>
+                                        <span className='text-[#464646] text-[18px] md:text-[24px] not-italic font-[500] leading-normal'>
                                             Create an Account
                                         </span>
                                     </li>
                                     <li className='flex items-center gap-[16px] flex-row'>
-                                        <div className='mr-[23px] bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
+                                        <div className='circle bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
                                             <span className='bg-[#8EBA5B] w-[69px] h-[69px] rounded-[50%] flex justify-center items-center text-[30px] text-white font-[700] leading-normal not-italic'>
                                                 02
                                             </span>
                                         </div>
                                         <Image src={MobileTwo} alt="mobile" />
-                                        <span className='text-[#464646] text-[24px] not-italic font-[500] leading-normal'>
+                                        <span className='text-[#464646] text-[18px] md:text-[24px] not-italic font-[500] leading-normal'>
                                             Start Conversations With AI
                                         </span>
                                     </li>
                                     <li className='flex items-center gap-[16px] flex-row'>
-                                        <div className='mr-[23px] bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
+                                        <div className='circle bg-[#8BC34A] w-[83px] h-[83px] rounded-[50%] flex justify-center items-center'>
                                             <span className='bg-[#8EBA5B] w-[69px] h-[69px] rounded-[50%] flex justify-center items-center text-[30px] text-white font-[700] leading-normal not-italic'>
                                                 03
                                             </span>
                                         </div>
                                         <Image src={MobileThree} alt="mobile" />
-                                        <span className='text-[#464646] text-[24px] not-italic font-[500] leading-normal'>
+                                        <span className='text-[#464646] text-[18px] md:text-[24px] not-italic font-[500] leading-normal'>
                                             Track Your Wellness
                                         </span>
                                     </li>

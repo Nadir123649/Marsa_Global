@@ -498,6 +498,9 @@ input:focus {
 .section-title {
   font-size: 32px;
 }
+.circle{
+  margin-right: 23px;
+}
 @media (max-width: 1400px) {
   .mood-img {
     top: -100px;
@@ -556,5 +559,8 @@ input:focus {
   }
   .feature-arrow{
     display: none;
+  }
+  .circle{
+    margin-right: 12px;
   }
 }

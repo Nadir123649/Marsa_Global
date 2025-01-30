@@ -11,11 +11,11 @@ const Footer = () => {
         setCurrentYear(new Date().getFullYear());
     }, []);
     return (
-        <footer className='pb-[50px]'>
-            <Container className='footer text-[#FFFFFF] bg-[linear-gradient(188.43deg,_#373737_7.17%,_#313131_94.35%)] rounded-[29px]'>
+        <footer className='md:pb-[50px]'>
+            <Container className='footer text-[#FFFFFF] bg-[linear-gradient(188.43deg,_#373737_7.17%,_#313131_94.35%)] md:rounded-[29px]'>
                 <div className='footer-top grid grid-cols-12 gap-4'>
                     <div className='col-span-12 sm:col-span-4'>
-                        <Image src={FooterLogoNew} alt="Footer Logo" className='footer-logo' />
+                        <Image src={FooterLogoNew} alt="Footer Logo" className='footer-logo'/>
                     </div>
                     <div className='col-span-12 sm:col-span-8'>
                         <ul className="flex sm:flex-row flex-col sm:items-center justify-between gap-[6px] list-none padding-footer">
