@@ -5,14 +5,14 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const EmpowerRight = () => {
     return (
-        <section className='py-[100px] relative'>
-            <Image src={RightGroup} alt='mood' className='absolute right-0 top-0 z-10' />
+        <section className='py-[10px] md:py-[100px] relative'>
+            <Image src={RightGroup} alt='mood' className='laptop-img absolute right-0 top-0 z-10' />
             <Container>
-                <div className='feature-card min-h-[488px] mt-[24px] flex flex-col justify-center py-[30px]'>
-                    <Row className='justify-start items-center pl-[60px] pr-[20px]'>
-                        <Col lg={8} md={12} xs={12}>
-                            <h1 className='text-[#1E1E25] text-[32px] not-italic font-[700] normal mb-[0px]'>
-                                Empower Teams with <span className='text-[#8BC34A]'>Wellness Analytics</span>
+                <div className='feature-card min-h-[488px] mt-[24px] flex flex-col justify-center'>
+                    <Row className='justify-start items-center pl-[0px] md:pl-[60px] pr-[20px]'>
+                        <Col lg={8} md={12} xs={12} className='p-0'>
+                            <h1 className='text-[#1E1E25] text-[26px] md:text-[32px] not-italic font-[700] leading-[55px] mb-[0px]'>
+                                Empower Teams with &nbsp;<span className='text-[#8BC34A]'>Wellness Analytics</span>
                             </h1>
                             <p className='text-[#8BC34A] text-[22px] font-[400] leading-normal not-italic mb-[18px]'>
                                 For Businesses (B2B)

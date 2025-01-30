@@ -32,7 +32,7 @@ const CommunitySlider = () => {
     return (
         <section className='mt-[0px] overflow-hidden'>
             <Container className='mb-[60px]'>
-                <h1 className='text-[#1E1E25] text-[40px] not-italic font-[700] leading-normal'>
+                <h1 className='text-[#1E1E25] text-[28px] md:text-[40px] not-italic font-[700] leading-normal'>
                     Feedback by <span className='text-[#8BC34A]'>Our Community</span>
                 </h1>
             </Container>

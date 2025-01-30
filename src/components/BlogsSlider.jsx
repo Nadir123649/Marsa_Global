@@ -37,7 +37,7 @@ const BlogsSlider = () => {
             <Image className="absolute right-0" src={ResourcesBg} />
             <Container>
                 <div className="header-container flex items-center justify-between pb-[32px]">
-                    <h1 className="text-[#4A4A4A] text-[32px] font-bold">Recommended Blogs</h1>
+                    <h1 className="text-[#4A4A4A] text-[20px] md:text-[32px] font-bold">Recommended Blogs</h1>
                     <div className="chevrons flex gap-4">
                         <button className={`chevron left ${isFirstSlide ? 'chevron-disable' : 'chevron-active'}`}  onClick={prevSlide}  disabled={isFirstSlide} > <FaChevronLeft className="text-[16px] transition-all duration-300 ease-in-out"/></button>
                         <button  className={`chevron right ${isLastSlide ? 'chevron-disable' : 'chevron-active'}`}  onClick={nextSlide} disabled={isLastSlide}> <FaChevronRight className="text-[16px] transition-all duration-300 ease-in-out" />

@@ -6,13 +6,13 @@ import { Col, Container, Form, Row } from 'react-bootstrap';
 const Contactus = () => {
 
     return (
-        <section className="contact-form-section mb-[60px] mt-[60px] bg-center bg-no-repeat bg-cover">
+        <section className="contact-form-section mb-[60px] mt-[60px] bg-center bg-no-repeat bg-cover px-[20px]">
             <div id='contact-us-form'>
                 <Container className='contact-form bg-[#EEEEEE] rounded-[16px]'>
                     <Row>
                         <Col lg={6} md={12} xs={12}>
                             <div className="contact-form-content mt-[20px] md:mt-[30px]">
-                                <h1 className='text-[40px] text-[#2D2D2D] font-bold not-italic capitalize mb-[20px]'>Let’s Reach New <span className='text-[#8BC34A]'>Heights</span>!</h1>
+                                <h1 className='text-[28px] md:text-[40px] text-[#2D2D2D] font-bold not-italic capitalize mb-[20px]'>Let’s Reach New <span className='text-[#8BC34A]'>Heights</span>!</h1>
                                 <p className='text-[24px] text-[#4C4C4C] not-italic font-normal max-w-full md:max-w-[532px] w-full leading-[34px] '>
                                     Book a call today and see
                                     where we can take you.
@@ -78,7 +78,7 @@ const Contactus = () => {
                                     </Col>
                                     <Col lg={6} md={12} xs={12}>
                                         <Form.Group className='flex flex-col gap-1'>
-                                            <Form.Label htmlFor='full-name' className='text-[#645555] text-[16px] md:text-[18px] font-medium not-italic'>Phone<sup className='text-[#FF9494]'>*</sup></Form.Label>
+                                            <Form.Label htmlFor='full-name' className='text-[#645555] text-[16px] md:text-[18px] font-medium not-italic'>Phone<span className='text-[#FF9494]'>*</span> </Form.Label>
                                             <input
                                                 id='full-name'
                                                 type="phone"

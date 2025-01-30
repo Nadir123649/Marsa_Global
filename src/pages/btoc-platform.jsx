@@ -10,7 +10,7 @@ const BtowoCPlatform = () => {
   return (
     <Layout showContactForm={true}>
       <BannerLanding style={BannerYourself} title="Empower" subtitle="Yourself" className="banner-btob flex flex-col justify-end" />
-      <section className='pt-[60px] overflow-hidden '>
+      <section className='md:pt-[60px] overflow-hidden '>
         <HelpsCard
           className="btoc-card"
           title="Why settle for"

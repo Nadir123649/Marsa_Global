@@ -56,9 +56,9 @@ export { default as BannerYourself} from "../../public/images/banner-bg-btob.png
 export { default as CareYourself} from "../../public/images/banner-bg-grouped.png";
 export { default as UserBox} from "../../public/images/bg-user-box.svg";
 export { default as FooterLogoNew} from "../../public/images/footer-logo.svg";
-export { default as PlatformOne} from "../../public/images/plat-one.png";
-export { default as PlatformTwo} from "../../public/images/plat-two.png";
-export { default as PlatformThree} from "../../public/images/plat-three.png";
-export { default as PlatformFour} from "../../public/images/plat-four.png";
-export { default as PlatformFive} from "../../public/images/plat-five.png";
-export { default as HomeMobile} from "../../public/images/mood-tracking-img.png";
+export { default as PlatformOne} from "../../public/images/ai-powered.svg";
+export { default as PlatformTwo} from "../../public/images/messaging.svg";
+export { default as PlatformThree} from "../../public/images/mood-tracking.svg";
+export { default as PlatformFour} from "../../public/images/journaling.svg";
+export { default as PlatformFive} from "../../public/images/resource-library.svg";
+export { default as FullLaptop} from "../../public/images/full-laptop.png";
