@@ -531,4 +531,7 @@ input:focus {
   .cardfeature{
     margin-bottom: 20px;
   }
+  .mood-description{
+    padding-left: 0px !important;
+  }
 }
