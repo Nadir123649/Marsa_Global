@@ -1,4 +1,4 @@
-import { RightGroup } from '@/utils';
+import { FullLaptop, RightGroup } from '@/utils';
 import Image from 'next/image';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -6,12 +6,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 const CorporateRight = ({ title, subtitle, description, boldDescription, simpleDescription }) => {
     return (
         <section className='py-[10px] md:py-[100px] relative'>
-            <Image src={RightGroup} alt='mood' className='corporate-laptop-right absolute right-0 top-0 z-10' />
+            <Image src={RightGroup} alt='mood' className='hidden md:block corporate-laptop-right absolute right-0 top-0 z-10' />
+              <Image src={FullLaptop} alt='mood' className=' block md:hidden' />
             <Container>
                 <div className='feature-card  min-h-[485px] mt-[24px] flex flex-col justify-center'>
-                    <Row className='feature-row justify-start items-center  pr-[20px]'>
+                    <Row className='feature-row corporatecard justify-start items-center  pr-[20px]'>
                         <Col lg={8} md={12} xs={12}>
-                            <h1 className='text-[#1E1E25] text-[32px] not-italic font-[700] leading-[61px] mb-[24px]'>
+                            <h1 className='text-[#1E1E25] text-[26px] md:text-[32px] not-italic font-[700] leading-[61px] mb-[24px]'>
                                 {title}&nbsp;<span className='text-[#8BC34A]'>{subtitle}</span>
                             </h1>
 

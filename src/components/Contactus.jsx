@@ -6,7 +6,7 @@ import { Col, Container, Form, Row } from 'react-bootstrap';
 const Contactus = () => {
 
     return (
-        <section className="contact-form-section mb-[60px] mt-[60px] bg-center bg-no-repeat bg-cover">
+        <section className="contact-form-section mb-[60px] mt-[60px] bg-center bg-no-repeat bg-cover px-[20px]">
             <div id='contact-us-form'>
                 <Container className='contact-form bg-[#EEEEEE] rounded-[16px]'>
                     <Row>

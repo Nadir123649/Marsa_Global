@@ -590,7 +590,7 @@ input:focus {
   }
   .btob-card,
   .btoc-card{
-    padding: 20px !important;
+    padding: 20px 10px !important;
   }
   .corporate-laptop-right,
   .corporate-laptop-left{
@@ -608,5 +608,11 @@ input:focus {
   }
   .section-title{
     font-size: 26px;
+  }
+  .corporatecard{
+    padding:0  !important;
+  }
+  .cigma-card{
+    min-height: 270px  !important;
   }
 }

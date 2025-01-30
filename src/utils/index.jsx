@@ -61,4 +61,4 @@ export { default as PlatformTwo} from "../../public/images/messaging.svg";
 export { default as PlatformThree} from "../../public/images/mood-tracking.svg";
 export { default as PlatformFour} from "../../public/images/journaling.svg";
 export { default as PlatformFive} from "../../public/images/resource-library.svg";
-
+export { default as FullLaptop} from "../../public/images/full-laptop.png";
