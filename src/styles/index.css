@@ -528,6 +528,9 @@ input:focus {
 .intro-video{
   height: 100vh !important;
 }
+.btns-users{
+  margin-top: 40px !important;
+}
 @media (max-width: 1400px) {
   .feature-row {
     padding-left: 35px;
@@ -661,5 +664,8 @@ input:focus {
   }
   .connect-title{
     max-width: 180px !important;
+  }
+  .btns-users{
+    margin-top: 20px !important;
   }
 }
