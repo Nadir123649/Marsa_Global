@@ -1,35 +1,22 @@
-import React from 'react';
-import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import Contactus from '@/components/Contactus';
 import Banner from '@/components/Banner';
-import CoreFeatures from '@/components/CoreFeatures';
-import CigmaSection from '@/components/CigmaSection';
-import MoodSection from '@/components/MoodSection';
-import CommunitySlider from '@/components/CommunitySlider';
-import EmpowerRight from '@/components/EmpowerRight';
+import Header from '@/components/Header';
+import Head from 'next/head';
 
 const Home = () => {
 
     return (
         <>
             <Head>
-                <title>Cigma</title>
-                <meta name="description" content="Cigma: Connect, Thrive, Be Well." />
-                <meta name="keywords" content="Cigma: Connect, Thrive, Be Well." />
+                <title>Marsa</title>
+                <meta name="description" content="Marsa" />
+                <meta name="keywords" content="Marsa" />
             </Head>
             <Header />
             <Banner />
             <main>
-                <CoreFeatures />
-                <CigmaSection />
-                <MoodSection />
-                <EmpowerRight />
-                <CommunitySlider />
+
             </main>
-            <Contactus />
-            <Footer />
+
         </>
     );
 }
